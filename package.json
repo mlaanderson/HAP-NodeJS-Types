@@ -1,31 +1,20 @@
 {
-  "name": "hap-nodejs",
-  "version": "0.3.2",
-  "description": "HAP-NodeJS is a Node.js implementation of HomeKit Accessory Server.",
+  "name": "hap-nodejs-types",
+  "version": "0.0.1",
+  "description": "HAP-NodeJS-Types is a library of HomeKit Services and Characteristics",
   "main": "index.js",
-  "dependencies": {
-    "curve25519": "git://github.com/KhaosT/node-curve25519",
-    "debug": "^2.2.0",
-    "ed25519": "git://github.com/KhaosT/ed25519",
-    "mdns": "^2.3.2",
-    "node-persist": "^0.0.8",
-    "srp": "git://github.com/KhaosT/node-srp"
-  },
-  "devDependencies": {
-    "simple-plist": "0.0.4"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node BridgedCore.js"
+    "start": "echo \"Error: this is just a library\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/KhaosT/HAP-NodeJS.git"
+    "url": "https://github.com/mlaanderson/HAP-NodeJS-Types.git"
   },
-  "author": "Khaos Tian <khaos.tian@gmail.com> (http://tz.is/)",
+  "author": "Michael Anderson <manderson@amesburytruth.com>",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/KhaosT/HAP-NodeJS/issues"
+    "url": "https://github.com/mlaanderson/HAP-NodeJS-Types/issues"
   },
-  "homepage": "https://github.com/KhaosT/HAP-NodeJS"
+  "homepage": "https://github.com/mlaanderson/HAP-NodeJS-Types"
 }
