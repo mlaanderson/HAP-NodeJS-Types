@@ -255,7 +255,9 @@
 
 ## Formats
 **Kind**: global variable  
-**Summary**: Known HomeKit formatsThese formats define the value types of a characteristic.  
+**Summary**: Known HomeKit formats
+
+These formats define the value types of a characteristic.  
 **Properties**
 
 | Name | Type | Description |
@@ -277,7 +279,10 @@
 
 ## Units
 **Kind**: global variable  
-**Summary**: Known HomeKit unit typesThese units define the unit of a given characteristic.These do not define the value type, just the units of the value.  
+**Summary**: Known HomeKit unit types
+
+These units define the unit of a given characteristic.
+These do not define the value type, just the units of the value.  
 **Properties**
 
 | Name | Type | Description |
@@ -292,7 +297,10 @@
 
 ## Perms
 **Kind**: global variable  
-**Summary**: Known HomeKit permission typesThese permissions define the permissions on the client side of thedatabase. A widget would invert the permissions.  
+**Summary**: Known HomeKit permission types
+
+These permissions define the permissions on the client side of the
+database. A widget would invert the permissions.  
 **Properties**
 
 | Name | Type | Description |
@@ -1660,7 +1668,9 @@
 
 ## Characteristic
 **Kind**: global variable  
-**Summary**: The Characteristic definitionsA characteristic defines a property of a service. Eachservice will have one or more Characteristics.  
+**Summary**: The Characteristic definitions
+A characteristic defines a property of a service. Each
+service will have one or more Characteristics.  
 **Properties**
 
 | Name | Type | Description |
@@ -1768,8 +1778,8 @@
 
 | Name | Type | Description |
 | --- | --- | --- |
-| Characteristics | <code>Array</code> | Required characteristics: Identify, Manufacturer, Model, Name, SerialNumber. |
-| OptionalCharacteristics | <code>Array</code> | Optional characteristics: FirmwareRevision, HardwareRevision, SoftwareRevision. |
+| Characteristics | <code>Array</code> | Required characteristics: [Identify](#Identify), [Manufacturer](#Manufacturer), [Model](#Model), [Name](#Name), [SerialNumber](#SerialNumber). |
+| OptionalCharacteristics | <code>Array</code> | Optional characteristics: [FirmwareRevision](#FirmwareRevision), [HardwareRevision](#HardwareRevision), [SoftwareRevision](#SoftwareRevision). |
 | UUID | <code>string</code> | 0000003E-0000-1000-8000-0026BB765291 |
 
 <a name="AirQualitySensor"></a>
@@ -1781,8 +1791,8 @@
 
 | Name | Type | Description |
 | --- | --- | --- |
-| Characteristics | <code>Array</code> | Required characteristics: AirQuality. |
-| OptionalCharacteristics | <code>Array</code> | Optional characteristics: AirParticulateDensity, AirParticulateSize, StatusActive, StatusFault, StatusTampered, StatusLowBattery, Name. |
+| Characteristics | <code>Array</code> | Required characteristics: [AirQuality](#AirQuality). |
+| OptionalCharacteristics | <code>Array</code> | Optional characteristics: [AirParticulateDensity](#AirParticulateDensity), [AirParticulateSize](#AirParticulateSize), [StatusActive](#StatusActive), [StatusFault](#StatusFault), [StatusTampered](#StatusTampered), [StatusLowBattery](#StatusLowBattery), [Name](#Name). |
 | UUID | <code>string</code> | 0000008D-0000-1000-8000-0026BB765291 |
 
 <a name="BatteryService"></a>
@@ -1794,8 +1804,8 @@
 
 | Name | Type | Description |
 | --- | --- | --- |
-| Characteristics | <code>Array</code> | Required characteristics: BatteryLevel, ChargingState, StatusLowBattery. |
-| OptionalCharacteristics | <code>Array</code> | Optional characteristics: Name. |
+| Characteristics | <code>Array</code> | Required characteristics: [BatteryLevel](#BatteryLevel), [ChargingState](#ChargingState), [StatusLowBattery](#StatusLowBattery). |
+| OptionalCharacteristics | <code>Array</code> | Optional characteristics: [Name](#Name). |
 | UUID | <code>string</code> | 000000A1-0000-1000-8000-0026BB765291 |
 
 <a name="BridgingState"></a>
@@ -1807,8 +1817,8 @@
 
 | Name | Type | Description |
 | --- | --- | --- |
-| Characteristics | <code>Array</code> | Required characteristics: Reachable, LinkQuality, AccessoryIdentifier, Category. |
-| OptionalCharacteristics | <code>Array</code> | Optional characteristics: Name. |
+| Characteristics | <code>Array</code> | Required characteristics: [Reachable](#Reachable), [LinkQuality](#LinkQuality), [AccessoryIdentifier](#AccessoryIdentifier), [Category](#Category). |
+| OptionalCharacteristics | <code>Array</code> | Optional characteristics: [Name](#Name). |
 | UUID | <code>string</code> | 00000062-0000-1000-8000-0026BB765291 |
 
 <a name="CarbonDioxideSensor"></a>
@@ -1820,8 +1830,8 @@
 
 | Name | Type | Description |
 | --- | --- | --- |
-| Characteristics | <code>Array</code> | Required characteristics: CarbonDioxideDetected. |
-| OptionalCharacteristics | <code>Array</code> | Optional characteristics: StatusActive, StatusFault, StatusLowBattery, StatusTampered, CarbonDioxideLevel, CarbonDioxidePeakLevel, Name. |
+| Characteristics | <code>Array</code> | Required characteristics: [CarbonDioxideDetected](#CarbonDioxideDetected). |
+| OptionalCharacteristics | <code>Array</code> | Optional characteristics: [StatusActive](#StatusActive), [StatusFault](#StatusFault), [StatusLowBattery](#StatusLowBattery), [StatusTampered](#StatusTampered), [CarbonDioxideLevel](#CarbonDioxideLevel), [CarbonDioxidePeakLevel](#CarbonDioxidePeakLevel), [Name](#Name). |
 | UUID | <code>string</code> | 00000097-0000-1000-8000-0026BB765291 |
 
 <a name="CarbonMonoxideSensor"></a>
@@ -1833,8 +1843,8 @@
 
 | Name | Type | Description |
 | --- | --- | --- |
-| Characteristics | <code>Array</code> | Required characteristics: CarbonMonoxideDetected. |
-| OptionalCharacteristics | <code>Array</code> | Optional characteristics: StatusActive, StatusFault, StatusLowBattery, StatusTampered, CarbonMonoxideLevel, CarbonMonoxidePeakLevel, Name. |
+| Characteristics | <code>Array</code> | Required characteristics: [CarbonMonoxideDetected](#CarbonMonoxideDetected). |
+| OptionalCharacteristics | <code>Array</code> | Optional characteristics: [StatusActive](#StatusActive), [StatusFault](#StatusFault), [StatusLowBattery](#StatusLowBattery), [StatusTampered](#StatusTampered), [CarbonMonoxideLevel](#CarbonMonoxideLevel), [CarbonMonoxidePeakLevel](#CarbonMonoxidePeakLevel), [Name](#Name). |
 | UUID | <code>string</code> | 0000007F-0000-1000-8000-0026BB765291 |
 
 <a name="ContactSensor"></a>
@@ -1846,8 +1856,8 @@
 
 | Name | Type | Description |
 | --- | --- | --- |
-| Characteristics | <code>Array</code> | Required characteristics: ContactSensorState. |
-| OptionalCharacteristics | <code>Array</code> | Optional characteristics: StatusActive, StatusFault, StatusTampered, StatusLowBattery, Name. |
+| Characteristics | <code>Array</code> | Required characteristics: [ContactSensorState](#ContactSensorState). |
+| OptionalCharacteristics | <code>Array</code> | Optional characteristics: [StatusActive](#StatusActive), [StatusFault](#StatusFault), [StatusTampered](#StatusTampered), [StatusLowBattery](#StatusLowBattery), [Name](#Name). |
 | UUID | <code>string</code> | 00000080-0000-1000-8000-0026BB765291 |
 
 <a name="Door"></a>
@@ -1859,8 +1869,8 @@
 
 | Name | Type | Description |
 | --- | --- | --- |
-| Characteristics | <code>Array</code> | Required characteristics: CurrentPosition, PositionState, TargetPosition. |
-| OptionalCharacteristics | <code>Array</code> | Optional characteristics: HoldPosition, ObstructionDetected, Name. |
+| Characteristics | <code>Array</code> | Required characteristics: [CurrentPosition](#CurrentPosition), [PositionState](#PositionState), [TargetPosition](#TargetPosition). |
+| OptionalCharacteristics | <code>Array</code> | Optional characteristics: [HoldPosition](#HoldPosition), [ObstructionDetected](#ObstructionDetected), [Name](#Name). |
 | UUID | <code>string</code> | 00000081-0000-1000-8000-0026BB765291 |
 
 <a name="Fan"></a>
@@ -1872,8 +1882,8 @@
 
 | Name | Type | Description |
 | --- | --- | --- |
-| Characteristics | <code>Array</code> | Required characteristics: On. |
-| OptionalCharacteristics | <code>Array</code> | Optional characteristics: RotationDirection, RotationSpeed, Name. |
+| Characteristics | <code>Array</code> | Required characteristics: [On](#On). |
+| OptionalCharacteristics | <code>Array</code> | Optional characteristics: [RotationDirection](#RotationDirection), [RotationSpeed](#RotationSpeed), [Name](#Name). |
 | UUID | <code>string</code> | 00000040-0000-1000-8000-0026BB765291 |
 
 <a name="GarageDoorOpener"></a>
@@ -1885,8 +1895,8 @@
 
 | Name | Type | Description |
 | --- | --- | --- |
-| Characteristics | <code>Array</code> | Required characteristics: CurrentDoorState, TargetDoorState, ObstructionDetected. |
-| OptionalCharacteristics | <code>Array</code> | Optional characteristics: LockCurrentState, LockTargetState, Name. |
+| Characteristics | <code>Array</code> | Required characteristics: [CurrentDoorState](#CurrentDoorState), [TargetDoorState](#TargetDoorState), [ObstructionDetected](#ObstructionDetected). |
+| OptionalCharacteristics | <code>Array</code> | Optional characteristics: [LockCurrentState](#LockCurrentState), [LockTargetState](#LockTargetState), [Name](#Name). |
 | UUID | <code>string</code> | 00000041-0000-1000-8000-0026BB765291 |
 
 <a name="HumiditySensor"></a>
@@ -1898,8 +1908,8 @@
 
 | Name | Type | Description |
 | --- | --- | --- |
-| Characteristics | <code>Array</code> | Required characteristics: CurrentRelativeHumidity. |
-| OptionalCharacteristics | <code>Array</code> | Optional characteristics: StatusActive, StatusFault, StatusTampered, StatusLowBattery, Name. |
+| Characteristics | <code>Array</code> | Required characteristics: [CurrentRelativeHumidity](#CurrentRelativeHumidity). |
+| OptionalCharacteristics | <code>Array</code> | Optional characteristics: [StatusActive](#StatusActive), [StatusFault](#StatusFault), [StatusTampered](#StatusTampered), [StatusLowBattery](#StatusLowBattery), [Name](#Name). |
 | UUID | <code>string</code> | 00000082-0000-1000-8000-0026BB765291 |
 
 <a name="LeakSensor"></a>
@@ -1911,8 +1921,8 @@
 
 | Name | Type | Description |
 | --- | --- | --- |
-| Characteristics | <code>Array</code> | Required characteristics: LeakDetected. |
-| OptionalCharacteristics | <code>Array</code> | Optional characteristics: StatusActive, StatusFault, StatusTampered, StatusLowBattery, Name. |
+| Characteristics | <code>Array</code> | Required characteristics: [LeakDetected](#LeakDetected). |
+| OptionalCharacteristics | <code>Array</code> | Optional characteristics: [StatusActive](#StatusActive), [StatusFault](#StatusFault), [StatusTampered](#StatusTampered), [StatusLowBattery](#StatusLowBattery), [Name](#Name). |
 | UUID | <code>string</code> | 00000083-0000-1000-8000-0026BB765291 |
 
 <a name="LightSensor"></a>
@@ -1924,8 +1934,8 @@
 
 | Name | Type | Description |
 | --- | --- | --- |
-| Characteristics | <code>Array</code> | Required characteristics: CurrentAmbientLightLevel. |
-| OptionalCharacteristics | <code>Array</code> | Optional characteristics: StatusActive, StatusFault, StatusTampered, StatusLowBattery, Name. |
+| Characteristics | <code>Array</code> | Required characteristics: [CurrentAmbientLightLevel](#CurrentAmbientLightLevel). |
+| OptionalCharacteristics | <code>Array</code> | Optional characteristics: [StatusActive](#StatusActive), [StatusFault](#StatusFault), [StatusTampered](#StatusTampered), [StatusLowBattery](#StatusLowBattery), [Name](#Name). |
 | UUID | <code>string</code> | 00000084-0000-1000-8000-0026BB765291 |
 
 <a name="Lightbulb"></a>
@@ -1937,8 +1947,8 @@
 
 | Name | Type | Description |
 | --- | --- | --- |
-| Characteristics | <code>Array</code> | Required characteristics: On. |
-| OptionalCharacteristics | <code>Array</code> | Optional characteristics: Brightness, Hue, Saturation, Name. |
+| Characteristics | <code>Array</code> | Required characteristics: [On](#On). |
+| OptionalCharacteristics | <code>Array</code> | Optional characteristics: [Brightness](#Brightness), [Hue](#Hue), [Saturation](#Saturation), [Name](#Name). |
 | UUID | <code>string</code> | 00000043-0000-1000-8000-0026BB765291 |
 
 <a name="LockManagement"></a>
@@ -1950,8 +1960,8 @@
 
 | Name | Type | Description |
 | --- | --- | --- |
-| Characteristics | <code>Array</code> | Required characteristics: LockControlPoint, Version. |
-| OptionalCharacteristics | <code>Array</code> | Optional characteristics: Logs, AudioFeedback, LockManagementAutoSecurityTimeout, AdministratorOnlyAccess, LockLastKnownAction, CurrentDoorState, MotionDetected, Name. |
+| Characteristics | <code>Array</code> | Required characteristics: [LockControlPoint](#LockControlPoint), [Version](#Version). |
+| OptionalCharacteristics | <code>Array</code> | Optional characteristics: [Logs](#Logs), [AudioFeedback](#AudioFeedback), [LockManagementAutoSecurityTimeout](#LockManagementAutoSecurityTimeout), [AdministratorOnlyAccess](#AdministratorOnlyAccess), [LockLastKnownAction](#LockLastKnownAction), [CurrentDoorState](#CurrentDoorState), [MotionDetected](#MotionDetected), [Name](#Name). |
 | UUID | <code>string</code> | 00000044-0000-1000-8000-0026BB765291 |
 
 <a name="LockMechanism"></a>
@@ -1963,8 +1973,8 @@
 
 | Name | Type | Description |
 | --- | --- | --- |
-| Characteristics | <code>Array</code> | Required characteristics: LockCurrentState, LockTargetState. |
-| OptionalCharacteristics | <code>Array</code> | Optional characteristics: Name. |
+| Characteristics | <code>Array</code> | Required characteristics: [LockCurrentState](#LockCurrentState), [LockTargetState](#LockTargetState). |
+| OptionalCharacteristics | <code>Array</code> | Optional characteristics: [Name](#Name). |
 | UUID | <code>string</code> | 00000045-0000-1000-8000-0026BB765291 |
 
 <a name="MotionSensor"></a>
@@ -1976,8 +1986,8 @@
 
 | Name | Type | Description |
 | --- | --- | --- |
-| Characteristics | <code>Array</code> | Required characteristics: MotionDetected. |
-| OptionalCharacteristics | <code>Array</code> | Optional characteristics: StatusActive, StatusFault, StatusTampered, StatusLowBattery, Name. |
+| Characteristics | <code>Array</code> | Required characteristics: [MotionDetected](#MotionDetected). |
+| OptionalCharacteristics | <code>Array</code> | Optional characteristics: [StatusActive](#StatusActive), [StatusFault](#StatusFault), [StatusTampered](#StatusTampered), [StatusLowBattery](#StatusLowBattery), [Name](#Name). |
 | UUID | <code>string</code> | 00000085-0000-1000-8000-0026BB765291 |
 
 <a name="OccupancySensor"></a>
@@ -1989,8 +1999,8 @@
 
 | Name | Type | Description |
 | --- | --- | --- |
-| Characteristics | <code>Array</code> | Required characteristics: OccupancyDetected. |
-| OptionalCharacteristics | <code>Array</code> | Optional characteristics: StatusActive, StatusFault, StatusTampered, StatusLowBattery, Name. |
+| Characteristics | <code>Array</code> | Required characteristics: [OccupancyDetected](#OccupancyDetected). |
+| OptionalCharacteristics | <code>Array</code> | Optional characteristics: [StatusActive](#StatusActive), [StatusFault](#StatusFault), [StatusTampered](#StatusTampered), [StatusLowBattery](#StatusLowBattery), [Name](#Name). |
 | UUID | <code>string</code> | 00000086-0000-1000-8000-0026BB765291 |
 
 <a name="Outlet"></a>
@@ -2002,8 +2012,8 @@
 
 | Name | Type | Description |
 | --- | --- | --- |
-| Characteristics | <code>Array</code> | Required characteristics: On, OutletInUse. |
-| OptionalCharacteristics | <code>Array</code> | Optional characteristics: Name. |
+| Characteristics | <code>Array</code> | Required characteristics: [On](#On), [OutletInUse](#OutletInUse). |
+| OptionalCharacteristics | <code>Array</code> | Optional characteristics: [Name](#Name). |
 | UUID | <code>string</code> | 00000047-0000-1000-8000-0026BB765291 |
 
 <a name="SecuritySystem"></a>
@@ -2015,8 +2025,8 @@
 
 | Name | Type | Description |
 | --- | --- | --- |
-| Characteristics | <code>Array</code> | Required characteristics: SecuritySystemCurrentState, SecuritySystemTargetState. |
-| OptionalCharacteristics | <code>Array</code> | Optional characteristics: StatusFault, StatusTampered, SecuritySystemAlarmType, Name. |
+| Characteristics | <code>Array</code> | Required characteristics: [SecuritySystemCurrentState](#SecuritySystemCurrentState), [SecuritySystemTargetState](#SecuritySystemTargetState). |
+| OptionalCharacteristics | <code>Array</code> | Optional characteristics: [StatusFault](#StatusFault), [StatusTampered](#StatusTampered), [SecuritySystemAlarmType](#SecuritySystemAlarmType), [Name](#Name). |
 | UUID | <code>string</code> | 0000007E-0000-1000-8000-0026BB765291 |
 
 <a name="SmokeSensor"></a>
@@ -2028,8 +2038,8 @@
 
 | Name | Type | Description |
 | --- | --- | --- |
-| Characteristics | <code>Array</code> | Required characteristics: SmokeDetected. |
-| OptionalCharacteristics | <code>Array</code> | Optional characteristics: StatusActive, StatusFault, StatusTampered, StatusLowBattery, Name. |
+| Characteristics | <code>Array</code> | Required characteristics: [SmokeDetected](#SmokeDetected). |
+| OptionalCharacteristics | <code>Array</code> | Optional characteristics: [StatusActive](#StatusActive), [StatusFault](#StatusFault), [StatusTampered](#StatusTampered), [StatusLowBattery](#StatusLowBattery), [Name](#Name). |
 | UUID | <code>string</code> | 00000087-0000-1000-8000-0026BB765291 |
 
 <a name="StatefulProgrammableSwitch"></a>
@@ -2041,8 +2051,8 @@
 
 | Name | Type | Description |
 | --- | --- | --- |
-| Characteristics | <code>Array</code> | Required characteristics: ProgrammableSwitchEvent, ProgrammableSwitchOutputState. |
-| OptionalCharacteristics | <code>Array</code> | Optional characteristics: Name. |
+| Characteristics | <code>Array</code> | Required characteristics: [ProgrammableSwitchEvent](#ProgrammableSwitchEvent), [ProgrammableSwitchOutputState](#ProgrammableSwitchOutputState). |
+| OptionalCharacteristics | <code>Array</code> | Optional characteristics: [Name](#Name). |
 | UUID | <code>string</code> | 00000088-0000-1000-8000-0026BB765291 |
 
 <a name="StatelessProgrammableSwitch"></a>
@@ -2054,8 +2064,8 @@
 
 | Name | Type | Description |
 | --- | --- | --- |
-| Characteristics | <code>Array</code> | Required characteristics: ProgrammableSwitchEvent. |
-| OptionalCharacteristics | <code>Array</code> | Optional characteristics: Name. |
+| Characteristics | <code>Array</code> | Required characteristics: [ProgrammableSwitchEvent](#ProgrammableSwitchEvent). |
+| OptionalCharacteristics | <code>Array</code> | Optional characteristics: [Name](#Name). |
 | UUID | <code>string</code> | 00000089-0000-1000-8000-0026BB765291 |
 
 <a name="Switch"></a>
@@ -2067,8 +2077,8 @@
 
 | Name | Type | Description |
 | --- | --- | --- |
-| Characteristics | <code>Array</code> | Required characteristics: On. |
-| OptionalCharacteristics | <code>Array</code> | Optional characteristics: Name. |
+| Characteristics | <code>Array</code> | Required characteristics: [On](#On). |
+| OptionalCharacteristics | <code>Array</code> | Optional characteristics: [Name](#Name). |
 | UUID | <code>string</code> | 00000049-0000-1000-8000-0026BB765291 |
 
 <a name="TemperatureSensor"></a>
@@ -2080,8 +2090,8 @@
 
 | Name | Type | Description |
 | --- | --- | --- |
-| Characteristics | <code>Array</code> | Required characteristics: CurrentTemperature. |
-| OptionalCharacteristics | <code>Array</code> | Optional characteristics: StatusActive, StatusFault, StatusLowBattery, StatusTampered, Name. |
+| Characteristics | <code>Array</code> | Required characteristics: [CurrentTemperature](#CurrentTemperature). |
+| OptionalCharacteristics | <code>Array</code> | Optional characteristics: [StatusActive](#StatusActive), [StatusFault](#StatusFault), [StatusLowBattery](#StatusLowBattery), [StatusTampered](#StatusTampered), [Name](#Name). |
 | UUID | <code>string</code> | 0000008A-0000-1000-8000-0026BB765291 |
 
 <a name="Thermostat"></a>
@@ -2093,8 +2103,8 @@
 
 | Name | Type | Description |
 | --- | --- | --- |
-| Characteristics | <code>Array</code> | Required characteristics: CurrentHeatingCoolingState, TargetHeatingCoolingState, CurrentTemperature, TargetTemperature, TemperatureDisplayUnits. |
-| OptionalCharacteristics | <code>Array</code> | Optional characteristics: CurrentRelativeHumidity, TargetRelativeHumidity, CoolingThresholdTemperature, HeatingThresholdTemperature, Name. |
+| Characteristics | <code>Array</code> | Required characteristics: [CurrentHeatingCoolingState](#CurrentHeatingCoolingState), [TargetHeatingCoolingState](#TargetHeatingCoolingState), [CurrentTemperature](#CurrentTemperature), [TargetTemperature](#TargetTemperature), [TemperatureDisplayUnits](#TemperatureDisplayUnits). |
+| OptionalCharacteristics | <code>Array</code> | Optional characteristics: [CurrentRelativeHumidity](#CurrentRelativeHumidity), [TargetRelativeHumidity](#TargetRelativeHumidity), [CoolingThresholdTemperature](#CoolingThresholdTemperature), [HeatingThresholdTemperature](#HeatingThresholdTemperature), [Name](#Name). |
 | UUID | <code>string</code> | 0000004A-0000-1000-8000-0026BB765291 |
 
 <a name="TimeInformation"></a>
@@ -2106,7 +2116,7 @@
 
 | Name | Type | Description |
 | --- | --- | --- |
-| Characteristics | <code>Array</code> | Required characteristics: CurrentTime, DayoftheWeek, TimeUpdate. |
+| Characteristics | <code>Array</code> | Required characteristics: [CurrentTime](#CurrentTime), [DayoftheWeek](#DayoftheWeek), [TimeUpdate](#TimeUpdate). |
 | UUID | <code>string</code> | 00000099-0000-1000-8000-0026BB765291 |
 
 <a name="TunneledBTLEAccessoryService"></a>
@@ -2118,7 +2128,7 @@
 
 | Name | Type | Description |
 | --- | --- | --- |
-| Characteristics | <code>Array</code> | Required characteristics: Name, AccessoryIdentifier, TunneledAccessoryStateNumber, TunneledAccessoryConnected, TunneledAccessoryAdvertising, TunnelConnectionTimeout. |
+| Characteristics | <code>Array</code> | Required characteristics: [Name](#Name), [AccessoryIdentifier](#AccessoryIdentifier), [TunneledAccessoryStateNumber](#TunneledAccessoryStateNumber), [TunneledAccessoryConnected](#TunneledAccessoryConnected), [TunneledAccessoryAdvertising](#TunneledAccessoryAdvertising), [TunnelConnectionTimeout](#TunnelConnectionTimeout). |
 | UUID | <code>string</code> | 0000008B-0000-1000-8000-0026BB765291 |
 
 <a name="WindowCovering"></a>
@@ -2130,15 +2140,17 @@
 
 | Name | Type | Description |
 | --- | --- | --- |
-| Characteristics | <code>Array</code> | Required characteristics: CurrentPosition, TargetPosition, PositionState. |
-| OptionalCharacteristics | <code>Array</code> | Optional characteristics: HoldPosition, TargetHorizontalTiltAngle, TargetVerticalTiltAngle, CurrentHorizontalTiltAngle, CurrentVerticalTiltAngle, ObstructionDetected, Name. |
+| Characteristics | <code>Array</code> | Required characteristics: [CurrentPosition](#CurrentPosition), [TargetPosition](#TargetPosition), [PositionState](#PositionState). |
+| OptionalCharacteristics | <code>Array</code> | Optional characteristics: [HoldPosition](#HoldPosition), [TargetHorizontalTiltAngle](#TargetHorizontalTiltAngle), [TargetVerticalTiltAngle](#TargetVerticalTiltAngle), [CurrentHorizontalTiltAngle](#CurrentHorizontalTiltAngle), [CurrentVerticalTiltAngle](#CurrentVerticalTiltAngle), [ObstructionDetected](#ObstructionDetected), [Name](#Name). |
 | UUID | <code>string</code> | 0000008C-0000-1000-8000-0026BB765291 |
 
 <a name="Service"></a>
 
 ## Service
 **Kind**: global variable  
-**Summary**: The Service definitionsA service defines a single function of a widget but canimplement multiple characteristics.  
+**Summary**: The Service definitions
+A service defines a single function of a widget but can
+implement multiple characteristics.  
 **Properties**
 
 | Name | Type | Description |
