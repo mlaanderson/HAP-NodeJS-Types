@@ -18,9 +18,9 @@ service will have one or more Characteristics.
 
 | Name | Type | Description |
 | --- | --- | --- |
-| Formats | <code>[Formats](#Formats)</code> |  |
-| Units | <code>[Units](#Units)</code> |  |
-| Perms | <code>[Perms](#Perms)</code> |  |
+| Formats | <code>[Formats](#Formats)</code> | Known HomeKit types |
+| Units | <code>[Units](#Units)</code> | Known HomeKit units |
+| Perms | <code>[Perms](#Perms)</code> | HomeKit permissions |
 | AccessoryIdentifier | <code>[AccessoryIdentifier](#AccessoryIdentifier)</code> | Characteristic "Accessory Identifier" |
 | AdministratorOnlyAccess | <code>[AdministratorOnlyAccess](#AdministratorOnlyAccess)</code> | Characteristic "Administrator Only Access" |
 | AirParticulateDensity | <code>[AirParticulateDensity](#AirParticulateDensity)</code> | Characteristic "Air Particulate Density" |
