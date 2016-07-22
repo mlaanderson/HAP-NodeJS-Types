@@ -112,8 +112,6 @@ service will have one or more Characteristics.
 | TunneledAccessoryStateNumber | <code>[TunneledAccessoryStateNumber](#TunneledAccessoryStateNumber)</code> | Characteristic "Tunneled Accessory State Number" |
 | Version | <code>[Version](#Version)</code> | Characteristic "Version" |
 
-
-
 <a name="Service"></a>
 
 ## Service
@@ -155,7 +153,6 @@ implement multiple characteristics.
 | TunneledBTLEAccessoryService | <code>[TunneledBTLEAccessoryService](#TunneledBTLEAccessoryService)</code> | Service "Tunneled BT LE Accessory Service". |
 | Window | <code>[Window](#Window)</code> | Service "Window". |
 | WindowCovering | <code>[WindowCovering](#WindowCovering)</code> | Service "Window Covering". |
-
 
 <a name="Formats"></a>
 
@@ -2003,9 +2000,7 @@ database. A widget would invert the permissions.
 | OptionalCharacteristics | <code>Array</code> | Optional characteristics: [Name](#Name). |
 | UUID | <code>string</code> | 000000A1-0000-1000-8000-0026BB765291 |
 
-
 **Member Of**: [Service](#Service)
-
 
 <a name="BridgingState"></a>
 
@@ -2020,9 +2015,7 @@ database. A widget would invert the permissions.
 | OptionalCharacteristics | <code>Array</code> | Optional characteristics: [Name](#Name). |
 | UUID | <code>string</code> | 00000062-0000-1000-8000-0026BB765291 |
 
-
 **Member Of**: [Service](#Service)
-
 
 <a name="CarbonDioxideSensor"></a>
 
@@ -2037,9 +2030,7 @@ database. A widget would invert the permissions.
 | OptionalCharacteristics | <code>Array</code> | Optional characteristics: [StatusActive](#StatusActive), [StatusFault](#StatusFault), [StatusLowBattery](#StatusLowBattery), [StatusTampered](#StatusTampered), [CarbonDioxideLevel](#CarbonDioxideLevel), [CarbonDioxidePeakLevel](#CarbonDioxidePeakLevel), [Name](#Name). |
 | UUID | <code>string</code> | 00000097-0000-1000-8000-0026BB765291 |
 
-
 **Member Of**: [Service](#Service)
-
 
 <a name="CarbonMonoxideSensor"></a>
 
@@ -2054,9 +2045,7 @@ database. A widget would invert the permissions.
 | OptionalCharacteristics | <code>Array</code> | Optional characteristics: [StatusActive](#StatusActive), [StatusFault](#StatusFault), [StatusLowBattery](#StatusLowBattery), [StatusTampered](#StatusTampered), [CarbonMonoxideLevel](#CarbonMonoxideLevel), [CarbonMonoxidePeakLevel](#CarbonMonoxidePeakLevel), [Name](#Name). |
 | UUID | <code>string</code> | 0000007F-0000-1000-8000-0026BB765291 |
 
-
 **Member Of**: [Service](#Service)
-
 
 <a name="ContactSensor"></a>
 
@@ -2071,9 +2060,7 @@ database. A widget would invert the permissions.
 | OptionalCharacteristics | <code>Array</code> | Optional characteristics: [StatusActive](#StatusActive), [StatusFault](#StatusFault), [StatusTampered](#StatusTampered), [StatusLowBattery](#StatusLowBattery), [Name](#Name). |
 | UUID | <code>string</code> | 00000080-0000-1000-8000-0026BB765291 |
 
-
 **Member Of**: [Service](#Service)
-
 
 <a name="Door"></a>
 
@@ -2088,9 +2075,7 @@ database. A widget would invert the permissions.
 | OptionalCharacteristics | <code>Array</code> | Optional characteristics: [HoldPosition](#HoldPosition), [ObstructionDetected](#ObstructionDetected), [Name](#Name). |
 | UUID | <code>string</code> | 00000081-0000-1000-8000-0026BB765291 |
 
-
 **Member Of**: [Service](#Service)
-
 
 <a name="Fan"></a>
 
@@ -2105,9 +2090,7 @@ database. A widget would invert the permissions.
 | OptionalCharacteristics | <code>Array</code> | Optional characteristics: [RotationDirection](#RotationDirection), [RotationSpeed](#RotationSpeed), [Name](#Name). |
 | UUID | <code>string</code> | 00000040-0000-1000-8000-0026BB765291 |
 
-
 **Member Of**: [Service](#Service)
-
 
 <a name="GarageDoorOpener"></a>
 
@@ -2122,9 +2105,7 @@ database. A widget would invert the permissions.
 | OptionalCharacteristics | <code>Array</code> | Optional characteristics: [LockCurrentState](#LockCurrentState), [LockTargetState](#LockTargetState), [Name](#Name). |
 | UUID | <code>string</code> | 00000041-0000-1000-8000-0026BB765291 |
 
-
 **Member Of**: [Service](#Service)
-
 
 <a name="HumiditySensor"></a>
 
@@ -2139,9 +2120,7 @@ database. A widget would invert the permissions.
 | OptionalCharacteristics | <code>Array</code> | Optional characteristics: [StatusActive](#StatusActive), [StatusFault](#StatusFault), [StatusTampered](#StatusTampered), [StatusLowBattery](#StatusLowBattery), [Name](#Name). |
 | UUID | <code>string</code> | 00000082-0000-1000-8000-0026BB765291 |
 
-
 **Member Of**: [Service](#Service)
-
 
 <a name="LeakSensor"></a>
 
@@ -2156,9 +2135,7 @@ database. A widget would invert the permissions.
 | OptionalCharacteristics | <code>Array</code> | Optional characteristics: [StatusActive](#StatusActive), [StatusFault](#StatusFault), [StatusTampered](#StatusTampered), [StatusLowBattery](#StatusLowBattery), [Name](#Name). |
 | UUID | <code>string</code> | 00000083-0000-1000-8000-0026BB765291 |
 
-
 **Member Of**: [Service](#Service)
-
 
 <a name="LightSensor"></a>
 
@@ -2173,9 +2150,7 @@ database. A widget would invert the permissions.
 | OptionalCharacteristics | <code>Array</code> | Optional characteristics: [StatusActive](#StatusActive), [StatusFault](#StatusFault), [StatusTampered](#StatusTampered), [StatusLowBattery](#StatusLowBattery), [Name](#Name). |
 | UUID | <code>string</code> | 00000084-0000-1000-8000-0026BB765291 |
 
-
 **Member Of**: [Service](#Service)
-
 
 <a name="Lightbulb"></a>
 
@@ -2190,9 +2165,7 @@ database. A widget would invert the permissions.
 | OptionalCharacteristics | <code>Array</code> | Optional characteristics: [Brightness](#Brightness), [Hue](#Hue), [Saturation](#Saturation), [Name](#Name). |
 | UUID | <code>string</code> | 00000043-0000-1000-8000-0026BB765291 |
 
-
 **Member Of**: [Service](#Service)
-
 
 <a name="LockManagement"></a>
 
@@ -2207,9 +2180,7 @@ database. A widget would invert the permissions.
 | OptionalCharacteristics | <code>Array</code> | Optional characteristics: [Logs](#Logs), [AudioFeedback](#AudioFeedback), [LockManagementAutoSecurityTimeout](#LockManagementAutoSecurityTimeout), [AdministratorOnlyAccess](#AdministratorOnlyAccess), [LockLastKnownAction](#LockLastKnownAction), [CurrentDoorState](#CurrentDoorState), [MotionDetected](#MotionDetected), [Name](#Name). |
 | UUID | <code>string</code> | 00000044-0000-1000-8000-0026BB765291 |
 
-
 **Member Of**: [Service](#Service)
-
 
 <a name="LockMechanism"></a>
 
@@ -2224,9 +2195,7 @@ database. A widget would invert the permissions.
 | OptionalCharacteristics | <code>Array</code> | Optional characteristics: [Name](#Name). |
 | UUID | <code>string</code> | 00000045-0000-1000-8000-0026BB765291 |
 
-
 **Member Of**: [Service](#Service)
-
 
 <a name="MotionSensor"></a>
 
@@ -2241,9 +2210,7 @@ database. A widget would invert the permissions.
 | OptionalCharacteristics | <code>Array</code> | Optional characteristics: [StatusActive](#StatusActive), [StatusFault](#StatusFault), [StatusTampered](#StatusTampered), [StatusLowBattery](#StatusLowBattery), [Name](#Name). |
 | UUID | <code>string</code> | 00000085-0000-1000-8000-0026BB765291 |
 
-
 **Member Of**: [Service](#Service)
-
 
 <a name="OccupancySensor"></a>
 
@@ -2258,9 +2225,7 @@ database. A widget would invert the permissions.
 | OptionalCharacteristics | <code>Array</code> | Optional characteristics: [StatusActive](#StatusActive), [StatusFault](#StatusFault), [StatusTampered](#StatusTampered), [StatusLowBattery](#StatusLowBattery), [Name](#Name). |
 | UUID | <code>string</code> | 00000086-0000-1000-8000-0026BB765291 |
 
-
 **Member Of**: [Service](#Service)
-
 
 <a name="Outlet"></a>
 
@@ -2275,9 +2240,7 @@ database. A widget would invert the permissions.
 | OptionalCharacteristics | <code>Array</code> | Optional characteristics: [Name](#Name). |
 | UUID | <code>string</code> | 00000047-0000-1000-8000-0026BB765291 |
 
-
 **Member Of**: [Service](#Service)
-
 
 <a name="SecuritySystem"></a>
 
@@ -2292,9 +2255,7 @@ database. A widget would invert the permissions.
 | OptionalCharacteristics | <code>Array</code> | Optional characteristics: [StatusFault](#StatusFault), [StatusTampered](#StatusTampered), [SecuritySystemAlarmType](#SecuritySystemAlarmType), [Name](#Name). |
 | UUID | <code>string</code> | 0000007E-0000-1000-8000-0026BB765291 |
 
-
 **Member Of**: [Service](#Service)
-
 
 <a name="SmokeSensor"></a>
 
@@ -2309,9 +2270,7 @@ database. A widget would invert the permissions.
 | OptionalCharacteristics | <code>Array</code> | Optional characteristics: [StatusActive](#StatusActive), [StatusFault](#StatusFault), [StatusTampered](#StatusTampered), [StatusLowBattery](#StatusLowBattery), [Name](#Name). |
 | UUID | <code>string</code> | 00000087-0000-1000-8000-0026BB765291 |
 
-
 **Member Of**: [Service](#Service)
-
 
 <a name="StatefulProgrammableSwitch"></a>
 
@@ -2326,9 +2285,7 @@ database. A widget would invert the permissions.
 | OptionalCharacteristics | <code>Array</code> | Optional characteristics: [Name](#Name). |
 | UUID | <code>string</code> | 00000088-0000-1000-8000-0026BB765291 |
 
-
 **Member Of**: [Service](#Service)
-
 
 <a name="StatelessProgrammableSwitch"></a>
 
@@ -2343,9 +2300,7 @@ database. A widget would invert the permissions.
 | OptionalCharacteristics | <code>Array</code> | Optional characteristics: [Name](#Name). |
 | UUID | <code>string</code> | 00000089-0000-1000-8000-0026BB765291 |
 
-
 **Member Of**: [Service](#Service)
-
 
 <a name="Switch"></a>
 
@@ -2360,9 +2315,7 @@ database. A widget would invert the permissions.
 | OptionalCharacteristics | <code>Array</code> | Optional characteristics: [Name](#Name). |
 | UUID | <code>string</code> | 00000049-0000-1000-8000-0026BB765291 |
 
-
 **Member Of**: [Service](#Service)
-
 
 <a name="TemperatureSensor"></a>
 
@@ -2377,9 +2330,7 @@ database. A widget would invert the permissions.
 | OptionalCharacteristics | <code>Array</code> | Optional characteristics: [StatusActive](#StatusActive), [StatusFault](#StatusFault), [StatusLowBattery](#StatusLowBattery), [StatusTampered](#StatusTampered), [Name](#Name). |
 | UUID | <code>string</code> | 0000008A-0000-1000-8000-0026BB765291 |
 
-
 **Member Of**: [Service](#Service)
-
 
 <a name="Thermostat"></a>
 
@@ -2394,9 +2345,7 @@ database. A widget would invert the permissions.
 | OptionalCharacteristics | <code>Array</code> | Optional characteristics: [CurrentRelativeHumidity](#CurrentRelativeHumidity), [TargetRelativeHumidity](#TargetRelativeHumidity), [CoolingThresholdTemperature](#CoolingThresholdTemperature), [HeatingThresholdTemperature](#HeatingThresholdTemperature), [Name](#Name). |
 | UUID | <code>string</code> | 0000004A-0000-1000-8000-0026BB765291 |
 
-
 **Member Of**: [Service](#Service)
-
 
 <a name="TimeInformation"></a>
 
@@ -2410,9 +2359,7 @@ database. A widget would invert the permissions.
 | Characteristics | <code>Array</code> | Required characteristics: [CurrentTime](#CurrentTime), [DayoftheWeek](#DayoftheWeek), [TimeUpdate](#TimeUpdate). |
 | UUID | <code>string</code> | 00000099-0000-1000-8000-0026BB765291 |
 
-
 **Member Of**: [Service](#Service)
-
 
 <a name="TunneledBTLEAccessoryService"></a>
 
@@ -2426,9 +2373,22 @@ database. A widget would invert the permissions.
 | Characteristics | <code>Array</code> | Required characteristics: [Name](#Name), [AccessoryIdentifier](#AccessoryIdentifier), [TunneledAccessoryStateNumber](#TunneledAccessoryStateNumber), [TunneledAccessoryConnected](#TunneledAccessoryConnected), [TunneledAccessoryAdvertising](#TunneledAccessoryAdvertising), [TunnelConnectionTimeout](#TunnelConnectionTimeout). |
 | UUID | <code>string</code> | 0000008B-0000-1000-8000-0026BB765291 |
 
-
 **Member Of**: [Service](#Service)
 
+<a name="Window"></a>
+
+## Window
+**Kind**: global variable  
+**Summary**: Service "Window".  
+**Properties**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| Characteristics | <code>Array</code> | Required characteristics: [CurrentPosition](#CurrentPosition), [TargetPosition](#TargetPosition), [PositionState](#PositionState). |
+| OptionalCharacteristics | <code>Array</code> | Optional characteristics: [HoldPosition](#HoldPosition), [ObstructionDetected](#ObstructionDetected), [Name](#Name). |
+| UUID | <code>string</code> | 0000008B-0000-1000-8000-0026BB765291 |
+
+**Member Of**: [Service](#Service)
 
 <a name="WindowCovering"></a>
 
@@ -2442,3 +2402,5 @@ database. A widget would invert the permissions.
 | Characteristics | <code>Array</code> | Required characteristics: [CurrentPosition](#CurrentPosition), [TargetPosition](#TargetPosition), [PositionState](#PositionState). |
 | OptionalCharacteristics | <code>Array</code> | Optional characteristics: [HoldPosition](#HoldPosition), [TargetHorizontalTiltAngle](#TargetHorizontalTiltAngle), [TargetVerticalTiltAngle](#TargetVerticalTiltAngle), [CurrentHorizontalTiltAngle](#CurrentHorizontalTiltAngle), [CurrentVerticalTiltAngle](#CurrentVerticalTiltAngle), [ObstructionDetected](#ObstructionDetected), [Name](#Name). |
 | UUID | <code>string</code> | 0000008C-0000-1000-8000-0026BB765291 |
+
+**Member Of**: [Service](#Service)
