@@ -1090,7 +1090,6 @@ database. A widget would invert the permissions.
 [TemperatureSensor](#TemperatureSensor), [Thermostat](#Thermostat),
 [TunneledBTLEAccessoryService](#TunneledBTLEAccessoryService), [WindowCovering](#WindowCovering)
 
-
 <a name="ObstructionDetected"></a>
 
 ## ObstructionDetected
@@ -1103,6 +1102,8 @@ database. A widget would invert the permissions.
 | format | <code>[Formats](#Formats)</code> | BOOL |
 | perms | <code>[Perms](#Perms)</code> | [Perms.READ, Perms.NOTIFY] |
 | UUID | <code>string</code> | 00000024-0000-1000-8000-0026BB765291 |
+
+**Used By**: [Door](#Door), [GarageDoorOpener](#GarageDoorOpener), [WindowCovering](#WindowCovering)
 
 <a name="OccupancyDetected"></a>
 
@@ -1119,6 +1120,8 @@ database. A widget would invert the permissions.
 | OCCUPANCY_NOT_DETECTED | <code>number</code> | 0 |
 | OCCUPANCY_DETECTED | <code>number</code> | 1 |
 
+**Used By**: [OccupancySensor](#OccupancySensor)
+
 <a name="On"></a>
 
 ## On
@@ -1131,6 +1134,8 @@ database. A widget would invert the permissions.
 | format | <code>[Formats](#Formats)</code> | BOOL |
 | perms | <code>[Perms](#Perms)</code> | [Perms.READ, Perms.WRITE, Perms.NOTIFY] |
 | UUID | <code>string</code> | 00000025-0000-1000-8000-0026BB765291 |
+
+**Used By**: [Fan](#Fan), [Lightbulb](#Lightbulb), [Outlet](#Outlet), [Switch](#Switch)
 
 <a name="OutletInUse"></a>
 
@@ -1145,6 +1150,8 @@ database. A widget would invert the permissions.
 | perms | <code>[Perms](#Perms)</code> | [Perms.READ, Perms.NOTIFY] |
 | UUID | <code>string</code> | 00000026-0000-1000-8000-0026BB765291 |
 
+**Used By**: [Outlet](#Outlet)
+
 <a name="PairSetup"></a>
 
 ## PairSetup
@@ -1157,6 +1164,8 @@ database. A widget would invert the permissions.
 | format | <code>[Formats](#Formats)</code> | TLV8 |
 | perms | <code>[Perms](#Perms)</code> | [Perms.READ, Perms.WRITE] |
 | UUID | <code>string</code> | 0000004C-0000-1000-8000-0026BB765291 |
+
+**Used By**: none
 
 <a name="PairVerify"></a>
 
@@ -1171,6 +1180,8 @@ database. A widget would invert the permissions.
 | perms | <code>[Perms](#Perms)</code> | [Perms.READ, Perms.WRITE] |
 | UUID | <code>string</code> | 0000004E-0000-1000-8000-0026BB765291 |
 
+**Used By**: none
+
 <a name="PairingFeatures"></a>
 
 ## PairingFeatures
@@ -1184,6 +1195,8 @@ database. A widget would invert the permissions.
 | perms | <code>[Perms](#Perms)</code> | [Perms.READ] |
 | UUID | <code>string</code> | 0000004F-0000-1000-8000-0026BB765291 |
 
+**Used By**: none
+
 <a name="PairingPairings"></a>
 
 ## PairingPairings
@@ -1196,6 +1209,8 @@ database. A widget would invert the permissions.
 | format | <code>[Formats](#Formats)</code> | TLV8 |
 | perms | <code>[Perms](#Perms)</code> | [Perms.READ, Perms.WRITE] |
 | UUID | <code>string</code> | 00000050-0000-1000-8000-0026BB765291 |
+
+**Used By**: none
 
 <a name="PositionState"></a>
 
@@ -1213,6 +1228,8 @@ database. A widget would invert the permissions.
 | INCREASING | <code>number</code> | 1 |
 | STOPPED | <code>number</code> | 2 |
 
+**Used By**: [Door](#Door), [WindowCovering](#WindowCovering)
+
 <a name="ProgrammableSwitchEvent"></a>
 
 ## ProgrammableSwitchEvent
@@ -1228,6 +1245,8 @@ database. A widget would invert the permissions.
 | minStep | <code>number</code> | 1 |
 | perms | <code>[Perms](#Perms)</code> | [Perms.READ, Perms.NOTIFY] |
 | UUID | <code>string</code> | 00000073-0000-1000-8000-0026BB765291 |
+
+**Used By**: [StatefulProgrammableSwitch](#StatefulProgrammableSwitch), [StatelessProgrammableSwitch](#StatelessProgrammableSwitch) 
 
 <a name="ProgrammableSwitchOutputState"></a>
 
@@ -1245,6 +1264,8 @@ database. A widget would invert the permissions.
 | perms | <code>[Perms](#Perms)</code> | [Perms.READ, Perms.WRITE, Perms.NOTIFY] |
 | UUID | <code>string</code> | 00000074-0000-1000-8000-0026BB765291 |
 
+**Used By**: [StatefulProgrammableSwitch](#StatefulProgrammableSwitch) 
+
 <a name="Reachable"></a>
 
 ## Reachable
@@ -1257,6 +1278,8 @@ database. A widget would invert the permissions.
 | format | <code>[Formats](#Formats)</code> | BOOL |
 | perms | <code>[Perms](#Perms)</code> | [Perms.READ, Perms.NOTIFY] |
 | UUID | <code>string</code> | 00000063-0000-1000-8000-0026BB765291 |
+
+**Used By**: [BridgingState](#BridgingState) 
 
 <a name="RotationDirection"></a>
 
@@ -1272,6 +1295,8 @@ database. A widget would invert the permissions.
 | UUID | <code>string</code> | 00000028-0000-1000-8000-0026BB765291 |
 | CLOCKWISE | <code>number</code> | 0 |
 | COUNTER_CLOCKWISE | <code>number</code> | 1 |
+
+**Used By**: [Fan](#Fan) 
 
 <a name="RotationSpeed"></a>
 
@@ -1290,6 +1315,8 @@ database. A widget would invert the permissions.
 | perms | <code>[Perms](#Perms)</code> | [Perms.READ, Perms.WRITE, Perms.NOTIFY] |
 | UUID | <code>string</code> | 00000029-0000-1000-8000-0026BB765291 |
 
+**Used By**: [Fan](#Fan) 
+
 <a name="Saturation"></a>
 
 ## Saturation
@@ -1307,6 +1334,8 @@ database. A widget would invert the permissions.
 | perms | <code>[Perms](#Perms)</code> | [Perms.READ, Perms.WRITE, Perms.NOTIFY] |
 | UUID | <code>string</code> | 0000002F-0000-1000-8000-0026BB765291 |
 
+**Used By**: [Lightbulb](#Lightbulb) 
+
 <a name="SecuritySystemAlarmType"></a>
 
 ## SecuritySystemAlarmType
@@ -1322,6 +1351,8 @@ database. A widget would invert the permissions.
 | minStep | <code>number</code> | 1 |
 | perms | <code>[Perms](#Perms)</code> | [Perms.READ, Perms.NOTIFY] |
 | UUID | <code>string</code> | 0000008E-0000-1000-8000-0026BB765291 |
+
+**Used By**: [SecuritySystem](#SecuritySystem) 
 
 <a name="SecuritySystemCurrentState"></a>
 
@@ -1341,6 +1372,8 @@ database. A widget would invert the permissions.
 | DISARMED | <code>number</code> | 3 |
 | ALARM_TRIGGERED | <code>number</code> | 4 |
 
+**Used By**: [SecuritySystem](#SecuritySystem) 
+
 <a name="SecuritySystemTargetState"></a>
 
 ## SecuritySystemTargetState
@@ -1358,6 +1391,8 @@ database. A widget would invert the permissions.
 | NIGHT_ARM | <code>number</code> | 2 |
 | DISARM | <code>number</code> | 3 |
 
+**Used By**: [SecuritySystem](#SecuritySystem) 
+
 <a name="SerialNumber"></a>
 
 ## SerialNumber
@@ -1370,6 +1405,8 @@ database. A widget would invert the permissions.
 | format | <code>[Formats](#Formats)</code> | STRING |
 | perms | <code>[Perms](#Perms)</code> | [Perms.READ] |
 | UUID | <code>string</code> | 00000030-0000-1000-8000-0026BB765291 |
+
+**Used By**: [AccessoryInformation](#AccessoryInformation) 
 
 <a name="SmokeDetected"></a>
 
@@ -1386,6 +1423,8 @@ database. A widget would invert the permissions.
 | SMOKE_NOT_DETECTED | <code>number</code> | 0 |
 | SMOKE_DETECTED | <code>number</code> | 1 |
 
+**Used By**: [SmokeSensor](#SmokeSensor) 
+
 <a name="SoftwareRevision"></a>
 
 ## SoftwareRevision
@@ -1398,6 +1437,8 @@ database. A widget would invert the permissions.
 | format | <code>[Formats](#Formats)</code> | STRING |
 | perms | <code>[Perms](#Perms)</code> | [Perms.READ] |
 | UUID | <code>string</code> | 00000054-0000-1000-8000-0026BB765291 |
+
+**Used By**: [AccessoryInformation](#AccessoryInformation) 
 
 <a name="StatusActive"></a>
 
@@ -1412,6 +1453,12 @@ database. A widget would invert the permissions.
 | perms | <code>[Perms](#Perms)</code> | [Perms.READ, Perms.NOTIFY] |
 | UUID | <code>string</code> | 00000075-0000-1000-8000-0026BB765291 |
 
+**Used By**: [AirQualitySensor](#AirQualitySensor), [CarbonDioxideSensor](#CarbonDioxideSensor),
+[CarbonMonoxideSensor](#CarbonMonoxideSensor), [ContactSensor](#ContactSensor),
+[HumiditySensor](#HumiditySensor), [LeakSensor](#LeakSensor), [LightSensor](#LightSensor),
+[MotionSensor](#MotionSensor), [OccupancySensor](#OccupancySensor), [SmokeSensor](#SmokeSensor),
+[TemperatureSensor](#TemperatureSensor) 
+
 <a name="StatusFault"></a>
 
 ## StatusFault
@@ -1424,6 +1471,13 @@ database. A widget would invert the permissions.
 | format | <code>[Formats](#Formats)</code> | UINT8 |
 | perms | <code>[Perms](#Perms)</code> | [Perms.READ, Perms.NOTIFY] |
 | UUID | <code>string</code> | 00000077-0000-1000-8000-0026BB765291 |
+
+**Used By**: [AirQualitySensor](#AirQualitySensor), [CarbonDioxideSensor](#CarbonDioxideSensor),
+[CarbonMonoxideSensor](#CarbonMonoxideSensor), [ContactSensor](#ContactSensor),
+[HumiditySensor](#HumiditySensor), [LeakSensor](#LeakSensor), [LightSensor](#LightSensor),
+[MotionSensor](#MotionSensor), [OccupancySensor](#OccupancySensor),
+[SecuritySystem](#SecuritySystem), [SmokeSensor](#SmokeSensor),
+[TemperatureSensor](#TemperatureSensor) 
 
 <a name="StatusJammed"></a>
 
@@ -1440,6 +1494,8 @@ database. A widget would invert the permissions.
 | NOT_JAMMED | <code>number</code> | 0 |
 | JAMMED | <code>number</code> | 1 |
 
+**Used By**: none 
+
 <a name="StatusLowBattery"></a>
 
 ## StatusLowBattery
@@ -1454,6 +1510,8 @@ database. A widget would invert the permissions.
 | UUID | <code>string</code> | 00000079-0000-1000-8000-0026BB765291 |
 | BATTERY_LEVEL_NORMAL | <code>number</code> | 0 |
 | BATTERY_LEVEL_LOW | <code>number</code> | 1 |
+
+**Used By**: [AirQualitySensor](#AirQualitySensor), [BatteryService](#BatteryService), [CarbonDioxideSensor](#CarbonDioxideSensor), [CarbonMonoxideSensor](#CarbonMonoxideSensor), [ContactSensor](#ContactSensor), [HumiditySensor](#HumiditySensor), [LeakSensor](#LeakSensor), [LightSensor](#LightSensor), [MotionSensor](#MotionSensor), [OccupancySensor](#OccupancySensor), [SmokeSensor](#SmokeSensor), [TemperatureSensor](#TemperatureSensor) 
 
 <a name="StatusTampered"></a>
 
@@ -1470,6 +1528,13 @@ database. A widget would invert the permissions.
 | NOT_TAMPERED | <code>number</code> | 0 |
 | TAMPERED | <code>number</code> | 1 |
 
+**Used By**: [AirQualitySensor](#AirQualitySensor), [CarbonDioxideSensor](#CarbonDioxideSensor),
+[CarbonMonoxideSensor](#CarbonMonoxideSensor), [ContactSensor](#ContactSensor),
+[HumiditySensor](#HumiditySensor), [LeakSensor](#LeakSensor), [LightSensor](#LightSensor),
+[MotionSensor](#MotionSensor), [OccupancySensor](#OccupancySensor),
+[SecuritySystem](#SecuritySystem), [SmokeSensor](#SmokeSensor),
+[TemperatureSensor](#TemperatureSensor) 
+
 <a name="TargetDoorState"></a>
 
 ## TargetDoorState
@@ -1484,6 +1549,8 @@ database. A widget would invert the permissions.
 | UUID | <code>string</code> | 00000032-0000-1000-8000-0026BB765291 |
 | OPEN | <code>number</code> | 0 |
 | CLOSED | <code>number</code> | 1 |
+
+**Used By**: [GarageDoorOpener](#GarageDoorOpener) 
 
 <a name="TargetHeatingCoolingState"></a>
 
@@ -1502,6 +1569,8 @@ database. A widget would invert the permissions.
 | COOL | <code>number</code> | 2 |
 | AUTO | <code>number</code> | 3 |
 
+**Used By**: [Thermostat](#Thermostat) 
+
 <a name="TargetHorizontalTiltAngle"></a>
 
 ## TargetHorizontalTiltAngle
@@ -1518,6 +1587,8 @@ database. A widget would invert the permissions.
 | minStep | <code>number</code> | 1 |
 | perms | <code>[Perms](#Perms)</code> | [Perms.READ, Perms.WRITE, Perms.NOTIFY] |
 | UUID | <code>string</code> | 0000007B-0000-1000-8000-0026BB765291 |
+
+**Used By**: [WindowCovering](#WindowCovering) 
 
 <a name="TargetPosition"></a>
 
@@ -1536,6 +1607,8 @@ database. A widget would invert the permissions.
 | perms | <code>[Perms](#Perms)</code> | [Perms.READ, Perms.WRITE, Perms.NOTIFY] |
 | UUID | <code>string</code> | 0000007C-0000-1000-8000-0026BB765291 |
 
+**Used By**: [Door](#Door), [WindowCovering](#WindowCovering) 
+
 <a name="TargetRelativeHumidity"></a>
 
 ## TargetRelativeHumidity
@@ -1552,6 +1625,8 @@ database. A widget would invert the permissions.
 | minStep | <code>number</code> | 1 |
 | perms | <code>[Perms](#Perms)</code> | [Perms.READ, Perms.WRITE, Perms.NOTIFY] |
 | UUID | <code>string</code> | 00000034-0000-1000-8000-0026BB765291 |
+
+**Used By**: [Thermostat](#Thermostat) 
 
 <a name="TargetTemperature"></a>
 
@@ -1570,6 +1645,8 @@ database. A widget would invert the permissions.
 | perms | <code>[Perms](#Perms)</code> | [Perms.READ, Perms.WRITE, Perms.NOTIFY] |
 | UUID | <code>string</code> | 00000035-0000-1000-8000-0026BB765291 |
 
+**Used By**: [Thermostat](#Thermostat) 
+
 <a name="TargetVerticalTiltAngle"></a>
 
 ## TargetVerticalTiltAngle
@@ -1587,6 +1664,8 @@ database. A widget would invert the permissions.
 | perms | <code>[Perms](#Perms)</code> | [Perms.READ, Perms.WRITE, Perms.NOTIFY] |
 | UUID | <code>string</code> | 0000007D-0000-1000-8000-0026BB765291 |
 
+**Used By**: [WindowCovering](#WindowCovering) 
+
 <a name="TemperatureDisplayUnits"></a>
 
 ## TemperatureDisplayUnits
@@ -1602,6 +1681,8 @@ database. A widget would invert the permissions.
 | CELSIUS | <code>number</code> | 0 |
 | FAHRENHEIT | <code>number</code> | 1 |
 
+**Used By**: [Thermostat](#Thermostat) 
+
 <a name="TimeUpdate"></a>
 
 ## TimeUpdate
@@ -1614,6 +1695,8 @@ database. A widget would invert the permissions.
 | format | <code>[Formats](#Formats)</code> | BOOL |
 | perms | <code>[Perms](#Perms)</code> | [Perms.READ, Perms.NOTIFY] |
 | UUID | <code>string</code> | 0000009A-0000-1000-8000-0026BB765291 |
+
+**Used By**: [TimeInformation](#TimeInformation) 
 
 <a name="TunnelConnectionTimeout"></a>
 
@@ -1628,6 +1711,8 @@ database. A widget would invert the permissions.
 | perms | <code>[Perms](#Perms)</code> | [Perms.WRITE, Perms.READ, Perms.NOTIFY] |
 | UUID | <code>string</code> | 00000061-0000-1000-8000-0026BB765291 |
 
+**Used By**: [TunneledBTLEAccessoryService](#TunneledBTLEAccessoryService) 
+
 <a name="TunneledAccessoryAdvertising"></a>
 
 ## TunneledAccessoryAdvertising
@@ -1640,6 +1725,8 @@ database. A widget would invert the permissions.
 | format | <code>[Formats](#Formats)</code> | BOOL |
 | perms | <code>[Perms](#Perms)</code> | [Perms.WRITE, Perms.READ, Perms.NOTIFY] |
 | UUID | <code>string</code> | 00000060-0000-1000-8000-0026BB765291 |
+
+**Used By**: [TunneledBTLEAccessoryService](#TunneledBTLEAccessoryService) 
 
 <a name="TunneledAccessoryConnected"></a>
 
@@ -1654,6 +1741,8 @@ database. A widget would invert the permissions.
 | perms | <code>[Perms](#Perms)</code> | [Perms.WRITE, Perms.READ, Perms.NOTIFY] |
 | UUID | <code>string</code> | 00000059-0000-1000-8000-0026BB765291 |
 
+**Used By**: [TunneledBTLEAccessoryService](#TunneledBTLEAccessoryService) 
+
 <a name="TunneledAccessoryStateNumber"></a>
 
 ## TunneledAccessoryStateNumber
@@ -1667,6 +1756,8 @@ database. A widget would invert the permissions.
 | perms | <code>[Perms](#Perms)</code> | [Perms.READ, Perms.NOTIFY] |
 | UUID | <code>string</code> | 00000058-0000-1000-8000-0026BB765291 |
 
+**Used By**: [TunneledBTLEAccessoryService](#TunneledBTLEAccessoryService) 
+
 <a name="Version"></a>
 
 ## Version
@@ -1679,6 +1770,8 @@ database. A widget would invert the permissions.
 | format | <code>[Formats](#Formats)</code> | STRING |
 | perms | <code>[Perms](#Perms)</code> | [Perms.READ, Perms.NOTIFY] |
 | UUID | <code>string</code> | 00000037-0000-1000-8000-0026BB765291 |
+
+**Used By**: [LockManagement](#LockManagement) 
 
 <a name="AccessoryInformation"></a>
 
