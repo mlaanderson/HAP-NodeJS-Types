@@ -180,6 +180,8 @@ These formats define the value types of a characteristic.
 | DATA | <code>string</code> | A data |
 | TLV8 | <code>string</code> | A tlv8 |
 
+**Member Of**: [Characteristic](#Characteristic)
+
 <a name="Units"></a>
 
 ## Units
@@ -198,6 +200,8 @@ These do not define the value type, just the units of the value.
 | LUX | <code>string</code> | Units are lux. |
 | SECONDS | <code>string</code> | Units are seconds. |
 
+**Member Of**: [Characteristic](#Characteristic)
+
 <a name="Perms"></a>
 
 ## Perms
@@ -214,6 +218,8 @@ database. A widget would invert the permissions.
 | WRITE | <code>string</code> | Clients can write. |
 | NOTIFY | <code>string</code> | Clients can be notified. |
 | HIDDEN | <code>string</code> | This characteristic is hidden from clients. |
+
+**Member Of**: [Characteristic](#Characteristic)
 
 <a name="AccessoryIdentifier"></a>
 
