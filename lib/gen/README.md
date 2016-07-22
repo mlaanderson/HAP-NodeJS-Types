@@ -2003,6 +2003,20 @@ database. A widget would invert the permissions.
 
 **Member Of**: [Service](#Service)
 
+<a name="BridgeConfiguration"></a>
+
+## BridgeConfiguration
+**Kind**: global variable  
+**Summary**: Service "Bridge Configuration".  
+**Properties**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| Characteristics | <code>Array</code> | Required characteristics: [ConfigureBridgedAccessoryStatus](#ConfigureBridgedAccessoryStatus), [DiscoverBridgedAccessories](#DiscoverBridgedAccessories), [DiscoveredBridgedAccessories](#DiscoveredBridgedAccessories), [ConfigureBridgedAccessory](#ConfigureBridgedAccessory). |
+| UUID | <code>string</code> | 000000A1-0000-1000-8000-0026BB765291 |
+
+**Member Of**: [Service](#Service)
+
 <a name="BridgingState"></a>
 
 ## BridgingState
