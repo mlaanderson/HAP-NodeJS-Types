@@ -943,7 +943,7 @@ database. A widget would invert the permissions.
 | JAMMED | <code>number</code> | 2 |
 | UNKNOWN | <code>number</code> | 3 |
 
-**Used By**: [GarageDoor](#GarageDoor), [LockManagement](#LockManagement)
+**Used By**: [GarageDoorOpener](#GarageDoorOpener), [LockManagement](#LockManagement)
 
 <a name="LockLastKnownAction"></a>
 
@@ -1003,7 +1003,7 @@ database. A widget would invert the permissions.
 | UNSECURED | <code>number</code> | 0 |
 | SECURED | <code>number</code> | 1 |
 
-**Used By**: [GarageDoor](#GarageDoor), [LockMechanism](#LockMechanism)
+**Used By**: [GarageDoorOpener](#GarageDoorOpener), [LockMechanism](#LockMechanism)
 
 <a name="Logs"></a>
 
