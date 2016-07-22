@@ -126,6 +126,7 @@ implement multiple characteristics.
 | AccessoryInformation | <code>[AccessoryInformation](#AccessoryInformation)</code> | Service "Accessory Information". |
 | AirQualitySensor | <code>[AirQualitySensor](#AirQualitySensor)</code> | Service "Air Quality Sensor". |
 | BatteryService | <code>[BatteryService](#BatteryService)</code> | Service "Battery Service". |
+| BridgeConfiguration | <code>[BridgeConfiguration](#BridgeConfiguration)</code> | Service "Bridge Configuration". |
 | BridgingState | <code>[BridgingState](#BridgingState)</code> | Service "Bridging State". |
 | CarbonDioxideSensor | <code>[CarbonDioxideSensor](#CarbonDioxideSensor)</code> | Service "Carbon Dioxide Sensor". |
 | CarbonMonoxideSensor | <code>[CarbonMonoxideSensor](#CarbonMonoxideSensor)</code> | Service "Carbon Monoxide Sensor". |
@@ -546,7 +547,7 @@ database. A widget would invert the permissions.
 
 **Member Of**: [Characteristic](#Characteristic)
 
-**Used By**: none.
+**Used By**: [BridgeConfiguration](#BridgeConfiguration)
 
 <a name="ConfigureBridgedAccessoryStatus"></a>
 
@@ -563,7 +564,7 @@ database. A widget would invert the permissions.
 
 **Member Of**: [Characteristic](#Characteristic)
 
-**Used By**: none.
+**Used By**: [BridgeConfiguration](#BridgeConfiguration)
 
 <a name="ContactSensorState"></a>
 
@@ -827,7 +828,7 @@ database. A widget would invert the permissions.
 
 **Member Of**: [Characteristic](#Characteristic)
 
-**Used By**: none
+**Used By**: [BridgeConfiguration](#BridgeConfiguration)
 
 <a name="DiscoveredBridgedAccessories"></a>
 
@@ -844,7 +845,7 @@ database. A widget would invert the permissions.
 
 **Member Of**: [Characteristic](#Characteristic)
 
-**Used By**: none
+**Used By**: [BridgeConfiguration](#BridgeConfiguration)
 
 <a name="FirmwareRevision"></a>
 
