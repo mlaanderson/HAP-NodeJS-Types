@@ -228,6 +228,8 @@ database. A widget would invert the permissions.
 | perms | <code>[Perms](#Perms)</code> | [Perms.READ] |
 | UUID | <code>string</code> | 00000057-0000-1000-8000-0026BB765291 |
 
+**Used By**: [BridgingState](#BridgingState), [TunneledBTLEAccessoryService](#TunneledBTLEAccessoryService)
+
 <a name="AdministratorOnlyAccess"></a>
 
 ## AdministratorOnlyAccess
@@ -240,6 +242,8 @@ database. A widget would invert the permissions.
 | format | <code>[Formats](#Formats)</code> | BOOL |
 | perms | <code>[Perms](#Perms)</code> | [Perms.READ, Perms.WRITE, Perms.NOTIFY] |
 | UUID | <code>string</code> | 00000001-0000-1000-8000-0026BB765291 |
+
+**Used By**: [LockManagement](#LockManagement)
 
 <a name="AirParticulateDensity"></a>
 
@@ -256,6 +260,8 @@ database. A widget would invert the permissions.
 | minStep | <code>number</code> | 1 |
 | perms | <code>[Perms](#Perms)</code> | [Perms.READ, Perms.NOTIFY] |
 | UUID | <code>string</code> | 00000064-0000-1000-8000-0026BB765291 |
+
+**Used By**: [AirQualitySensor](#AirQualitySensor)
 
 <a name="AirParticulateSize"></a>
 
