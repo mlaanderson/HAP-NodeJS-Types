@@ -229,6 +229,7 @@ database. A widget would invert the permissions.
 | UUID | <code>string</code> | 00000057-0000-1000-8000-0026BB765291 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: [BridgingState](#BridgingState), [TunneledBTLEAccessoryService](#TunneledBTLEAccessoryService)
 
 <a name="AdministratorOnlyAccess"></a>
@@ -245,6 +246,7 @@ database. A widget would invert the permissions.
 | UUID | <code>string</code> | 00000001-0000-1000-8000-0026BB765291 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: [LockManagement](#LockManagement)
 
 <a name="AirParticulateDensity"></a>
@@ -264,6 +266,7 @@ database. A widget would invert the permissions.
 | UUID | <code>string</code> | 00000064-0000-1000-8000-0026BB765291 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: [AirQualitySensor](#AirQualitySensor)
 
 <a name="AirParticulateSize"></a>
@@ -282,6 +285,7 @@ database. A widget would invert the permissions.
 | _10_M | <code>number</code> | 1 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: [AirQualitySensor](#AirQualitySensor)
 
 <a name="AirQuality"></a>
@@ -304,6 +308,7 @@ database. A widget would invert the permissions.
 | POOR | <code>number</code> | 5 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: [AirQualitySensor](#AirQualitySensor)
 
 <a name="AudioFeedback"></a>
@@ -320,6 +325,7 @@ database. A widget would invert the permissions.
 | UUID | <code>string</code> | 00000005-0000-1000-8000-0026BB765291 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: [LockManagement](#LockManagement)
 
 <a name="BatteryLevel"></a>
@@ -340,6 +346,7 @@ database. A widget would invert the permissions.
 | UUID | <code>string</code> | 00000068-0000-1000-8000-0026BB765291 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: [BatteryService](#BatteryService)
 
 <a name="Brightness"></a>
@@ -360,6 +367,7 @@ database. A widget would invert the permissions.
 | UUID | <code>string</code> | 00000008-0000-1000-8000-0026BB765291 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: [LightBulb](#LightBulb)
 
 <a name="CarbonDioxideDetected"></a>
@@ -378,6 +386,7 @@ database. A widget would invert the permissions.
 | CO2_LEVELS_ABNORMAL | <code>number</code> | 1 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: [CarbonDioxideSensor](#CarbonDioxideSensor)
 
 <a name="CarbonDioxideLevel"></a>
@@ -397,6 +406,7 @@ database. A widget would invert the permissions.
 | UUID | <code>string</code> | 00000093-0000-1000-8000-0026BB765291 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: [CarbonDioxideSensor](#CarbonDioxideSensor)
 
 <a name="CarbonDioxidePeakLevel"></a>
@@ -416,6 +426,7 @@ database. A widget would invert the permissions.
 | UUID | <code>string</code> | 00000094-0000-1000-8000-0026BB765291 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: [CarbonDioxideSensor](#CarbonDioxideSensor)
 
 <a name="CarbonMonoxideDetected"></a>
@@ -434,6 +445,7 @@ database. A widget would invert the permissions.
 | CO_LEVELS_ABNORMAL | <code>number</code> | 1 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: [CarbonMonoxideSensor](#CarbonMonoxideSensor)
 
 <a name="CarbonMonoxideLevel"></a>
@@ -453,6 +465,7 @@ database. A widget would invert the permissions.
 | UUID | <code>string</code> | 00000090-0000-1000-8000-0026BB765291 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: [CarbonMonoxideSensor](#CarbonMonoxideSensor)
 
 <a name="CarbonMonoxidePeakLevel"></a>
@@ -472,6 +485,7 @@ database. A widget would invert the permissions.
 | UUID | <code>string</code> | 00000091-0000-1000-8000-0026BB765291 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: [CarbonMonoxideSensor](#CarbonMonoxideSensor)
 
 <a name="Category"></a>
@@ -491,6 +505,7 @@ database. A widget would invert the permissions.
 | UUID | <code>string</code> | 000000A3-0000-1000-8000-0026BB765291 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: [BridgingState](#BridgingState)
 
 <a name="ChargingState"></a>
@@ -509,6 +524,7 @@ database. A widget would invert the permissions.
 | CHARGING | <code>number</code> | 1 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: [BatteryService](#BatteryService)
 
 <a name="ConfigureBridgedAccessory"></a>
@@ -525,6 +541,7 @@ database. A widget would invert the permissions.
 | UUID | <code>string</code> | 000000A0-0000-1000-8000-0026BB765291 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: none.
 
 <a name="ConfigureBridgedAccessoryStatus"></a>
@@ -541,6 +558,7 @@ database. A widget would invert the permissions.
 | UUID | <code>string</code> | 0000009D-0000-1000-8000-0026BB765291 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: none.
 
 <a name="ContactSensorState"></a>
@@ -559,6 +577,7 @@ database. A widget would invert the permissions.
 | CONTACT_NOT_DETECTED | <code>number</code> | 1 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: [ContactSensor](#ContactSensor)
 
 <a name="CoolingThresholdTemperature"></a>
@@ -579,6 +598,7 @@ database. A widget would invert the permissions.
 | UUID | <code>string</code> | 0000000D-0000-1000-8000-0026BB765291 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: [Thermostat](#Thermostat)
 
 <a name="CurrentAmbientLightLevel"></a>
@@ -599,6 +619,7 @@ database. A widget would invert the permissions.
 | UUID | <code>string</code> | 0000006B-0000-1000-8000-0026BB765291 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: [LightSensor](#LightSensor)
 
 <a name="CurrentDoorState"></a>
@@ -620,6 +641,7 @@ database. A widget would invert the permissions.
 | STOPPED | <code>number</code> | 4 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: [GarageDoorOpener](#GarageDoorOpener), [LockManagement](#LockManagement)
 
 <a name="CurrentHeatingCoolingState"></a>
@@ -639,6 +661,7 @@ database. A widget would invert the permissions.
 | COOL | <code>number</code> | 2 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: [Thermostat](#Thermostat)
 
 <a name="CurrentHorizontalTiltAngle"></a>
@@ -659,6 +682,7 @@ database. A widget would invert the permissions.
 | UUID | <code>string</code> | 0000006C-0000-1000-8000-0026BB765291 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: [WindowCovering](#WindowCovering)
 
 <a name="CurrentPosition"></a>
@@ -679,6 +703,7 @@ database. A widget would invert the permissions.
 | UUID | <code>string</code> | 0000006D-0000-1000-8000-0026BB765291 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: [Door](#Door), [WindowCovering](#WindowCovering)
 
 <a name="CurrentRelativeHumidity"></a>
@@ -699,6 +724,7 @@ database. A widget would invert the permissions.
 | UUID | <code>string</code> | 00000010-0000-1000-8000-0026BB765291 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: [HumiditySensor](#HumiditySensor), [Thermostat](#Thermostat)
 
 <a name="CurrentTemperature"></a>
@@ -719,6 +745,7 @@ database. A widget would invert the permissions.
 | UUID | <code>string</code> | 00000011-0000-1000-8000-0026BB765291 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: [TemperatureSensor](#TemperatureSensor), [Thermostat](#Thermostat)
 
 <a name="CurrentTime"></a>
@@ -735,6 +762,7 @@ database. A widget would invert the permissions.
 | UUID | <code>string</code> | 0000009B-0000-1000-8000-0026BB765291 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: [TimeInformation](#TimeInformation)
 
 <a name="CurrentVerticalTiltAngle"></a>
@@ -755,6 +783,7 @@ database. A widget would invert the permissions.
 | UUID | <code>string</code> | 0000006E-0000-1000-8000-0026BB765291 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: [WindowCovering](#WindowCovering)
 
 <a name="DayoftheWeek"></a>
@@ -774,6 +803,7 @@ database. A widget would invert the permissions.
 | UUID | <code>string</code> | 00000098-0000-1000-8000-0026BB765291 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: [TimeInformation](#TimeInformation)
 
 <a name="DiscoverBridgedAccessories"></a>
@@ -792,6 +822,7 @@ database. A widget would invert the permissions.
 | STOP_DISCOVERY | <code>number</code> | 1 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: none
 
 <a name="DiscoveredBridgedAccessories"></a>
@@ -808,6 +839,7 @@ database. A widget would invert the permissions.
 | UUID | <code>string</code> | 0000009F-0000-1000-8000-0026BB765291 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: none
 
 <a name="FirmwareRevision"></a>
@@ -824,6 +856,7 @@ database. A widget would invert the permissions.
 | UUID | <code>string</code> | 00000052-0000-1000-8000-0026BB765291 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: [AccessoryInformation](#AccessoryInformation)
 
 <a name="HardwareRevision"></a>
@@ -840,6 +873,7 @@ database. A widget would invert the permissions.
 | UUID | <code>string</code> | 00000053-0000-1000-8000-0026BB765291 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: [AccessoryInformation](#AccessoryInformation)
 
 <a name="HeatingThresholdTemperature"></a>
@@ -860,6 +894,7 @@ database. A widget would invert the permissions.
 | UUID | <code>string</code> | 00000012-0000-1000-8000-0026BB765291 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: [Thermostat](#Thermostat)
 
 <a name="HoldPosition"></a>
@@ -876,6 +911,7 @@ database. A widget would invert the permissions.
 | UUID | <code>string</code> | 0000006F-0000-1000-8000-0026BB765291 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: [Door](#Door), [WindowCovering](#WindowCovering)
 
 <a name="Hue"></a>
@@ -896,6 +932,7 @@ database. A widget would invert the permissions.
 | UUID | <code>string</code> | 00000013-0000-1000-8000-0026BB765291 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: [Lightbulb](#Lightbulb)
 
 <a name="Identify"></a>
@@ -912,6 +949,7 @@ database. A widget would invert the permissions.
 | UUID | <code>string</code> | 00000014-0000-1000-8000-0026BB765291 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: [AccessoryInformation](#AccessoryInformation)
 
 <a name="LeakDetected"></a>
@@ -930,6 +968,7 @@ database. A widget would invert the permissions.
 | LEAK_DETECTED | <code>number</code> | 1 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: [LeakSensor](#LeakSensor)
 
 <a name="LinkQuality"></a>
@@ -949,6 +988,7 @@ database. A widget would invert the permissions.
 | UUID | <code>string</code> | 0000009C-0000-1000-8000-0026BB765291 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: [BridgingState](#BridgingState)
 
 <a name="LockControlPoint"></a>
@@ -965,6 +1005,7 @@ database. A widget would invert the permissions.
 | UUID | <code>string</code> | 00000019-0000-1000-8000-0026BB765291 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: [LockManagement](#LockManagement)
 
 <a name="LockCurrentState"></a>
@@ -985,6 +1026,7 @@ database. A widget would invert the permissions.
 | UNKNOWN | <code>number</code> | 3 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: [GarageDoorOpener](#GarageDoorOpener), [LockManagement](#LockManagement)
 
 <a name="LockLastKnownAction"></a>
@@ -1010,6 +1052,7 @@ database. A widget would invert the permissions.
 | SECURED_BY_AUTO_SECURE_TIMEOUT | <code>number</code> | 8 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: [LockManagement](#LockManagement)
 
 <a name="LockManagementAutoSecurityTimeout"></a>
@@ -1030,6 +1073,7 @@ database. A widget would invert the permissions.
 | UUID | <code>string</code> | 0000001A-0000-1000-8000-0026BB765291 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: [LockManagement](#LockManagement)
 
 <a name="LockTargetState"></a>
@@ -1048,6 +1092,7 @@ database. A widget would invert the permissions.
 | SECURED | <code>number</code> | 1 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: [GarageDoorOpener](#GarageDoorOpener), [LockMechanism](#LockMechanism)
 
 <a name="Logs"></a>
@@ -1064,6 +1109,7 @@ database. A widget would invert the permissions.
 | UUID | <code>string</code> | 0000001F-0000-1000-8000-0026BB765291 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: [LockManagement](#LockManagement)
 
 <a name="Manufacturer"></a>
@@ -1080,6 +1126,7 @@ database. A widget would invert the permissions.
 | UUID | <code>string</code> | 00000020-0000-1000-8000-0026BB765291 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: [AccessoryInformation](#AccessoryInformation)
 
 <a name="Model"></a>
@@ -1096,6 +1143,7 @@ database. A widget would invert the permissions.
 | UUID | <code>string</code> | 00000021-0000-1000-8000-0026BB765291 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: [AccessoryInformation](#AccessoryInformation)
 
 <a name="MotionDetected"></a>
@@ -1112,6 +1160,7 @@ database. A widget would invert the permissions.
 | UUID | <code>string</code> | 00000022-0000-1000-8000-0026BB765291 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: [LockManagement](#LockManagement), [MotionSensor](#MotionSensor)
 
 <a name="Name"></a>
@@ -1128,6 +1177,7 @@ database. A widget would invert the permissions.
 | UUID | <code>string</code> | 00000023-0000-1000-8000-0026BB765291 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: [AccessoryInformation](#AccessoryInformation), [AirQualitySensor](#AirQualitySensor),
 [BatteryService](#BatteryService), [BridgingState](#BridgingState), [CarbonDioxideSensor](#CarbonDioxideSensor),
 [CarbonMonoxideSensor](#CarbonMonoxideSensor), [ContactSensor](#ContactSensor), [Door](#Door),
@@ -1154,6 +1204,7 @@ database. A widget would invert the permissions.
 | UUID | <code>string</code> | 00000024-0000-1000-8000-0026BB765291 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: [Door](#Door), [GarageDoorOpener](#GarageDoorOpener), [WindowCovering](#WindowCovering)
 
 <a name="OccupancyDetected"></a>
@@ -1172,6 +1223,7 @@ database. A widget would invert the permissions.
 | OCCUPANCY_DETECTED | <code>number</code> | 1 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: [OccupancySensor](#OccupancySensor)
 
 <a name="On"></a>
@@ -1188,6 +1240,7 @@ database. A widget would invert the permissions.
 | UUID | <code>string</code> | 00000025-0000-1000-8000-0026BB765291 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: [Fan](#Fan), [Lightbulb](#Lightbulb), [Outlet](#Outlet), [Switch](#Switch)
 
 <a name="OutletInUse"></a>
@@ -1204,6 +1257,7 @@ database. A widget would invert the permissions.
 | UUID | <code>string</code> | 00000026-0000-1000-8000-0026BB765291 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: [Outlet](#Outlet)
 
 <a name="PairSetup"></a>
@@ -1220,6 +1274,7 @@ database. A widget would invert the permissions.
 | UUID | <code>string</code> | 0000004C-0000-1000-8000-0026BB765291 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: none
 
 <a name="PairVerify"></a>
@@ -1236,6 +1291,7 @@ database. A widget would invert the permissions.
 | UUID | <code>string</code> | 0000004E-0000-1000-8000-0026BB765291 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: none
 
 <a name="PairingFeatures"></a>
@@ -1252,6 +1308,7 @@ database. A widget would invert the permissions.
 | UUID | <code>string</code> | 0000004F-0000-1000-8000-0026BB765291 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: none
 
 <a name="PairingPairings"></a>
@@ -1268,6 +1325,7 @@ database. A widget would invert the permissions.
 | UUID | <code>string</code> | 00000050-0000-1000-8000-0026BB765291 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: none
 
 <a name="PositionState"></a>
@@ -1287,6 +1345,7 @@ database. A widget would invert the permissions.
 | STOPPED | <code>number</code> | 2 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: [Door](#Door), [WindowCovering](#WindowCovering)
 
 <a name="ProgrammableSwitchEvent"></a>
@@ -1306,6 +1365,7 @@ database. A widget would invert the permissions.
 | UUID | <code>string</code> | 00000073-0000-1000-8000-0026BB765291 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: [StatefulProgrammableSwitch](#StatefulProgrammableSwitch), [StatelessProgrammableSwitch](#StatelessProgrammableSwitch) 
 
 <a name="ProgrammableSwitchOutputState"></a>
@@ -1325,6 +1385,7 @@ database. A widget would invert the permissions.
 | UUID | <code>string</code> | 00000074-0000-1000-8000-0026BB765291 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: [StatefulProgrammableSwitch](#StatefulProgrammableSwitch) 
 
 <a name="Reachable"></a>
@@ -1341,6 +1402,7 @@ database. A widget would invert the permissions.
 | UUID | <code>string</code> | 00000063-0000-1000-8000-0026BB765291 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: [BridgingState](#BridgingState) 
 
 <a name="RotationDirection"></a>
@@ -1359,6 +1421,7 @@ database. A widget would invert the permissions.
 | COUNTER_CLOCKWISE | <code>number</code> | 1 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: [Fan](#Fan) 
 
 <a name="RotationSpeed"></a>
@@ -1379,6 +1442,7 @@ database. A widget would invert the permissions.
 | UUID | <code>string</code> | 00000029-0000-1000-8000-0026BB765291 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: [Fan](#Fan) 
 
 <a name="Saturation"></a>
@@ -1399,6 +1463,7 @@ database. A widget would invert the permissions.
 | UUID | <code>string</code> | 0000002F-0000-1000-8000-0026BB765291 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: [Lightbulb](#Lightbulb) 
 
 <a name="SecuritySystemAlarmType"></a>
@@ -1418,6 +1483,7 @@ database. A widget would invert the permissions.
 | UUID | <code>string</code> | 0000008E-0000-1000-8000-0026BB765291 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: [SecuritySystem](#SecuritySystem) 
 
 <a name="SecuritySystemCurrentState"></a>
@@ -1439,6 +1505,7 @@ database. A widget would invert the permissions.
 | ALARM_TRIGGERED | <code>number</code> | 4 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: [SecuritySystem](#SecuritySystem) 
 
 <a name="SecuritySystemTargetState"></a>
@@ -1459,6 +1526,7 @@ database. A widget would invert the permissions.
 | DISARM | <code>number</code> | 3 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: [SecuritySystem](#SecuritySystem) 
 
 <a name="SerialNumber"></a>
@@ -1475,6 +1543,7 @@ database. A widget would invert the permissions.
 | UUID | <code>string</code> | 00000030-0000-1000-8000-0026BB765291 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: [AccessoryInformation](#AccessoryInformation) 
 
 <a name="SmokeDetected"></a>
@@ -1493,6 +1562,7 @@ database. A widget would invert the permissions.
 | SMOKE_DETECTED | <code>number</code> | 1 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: [SmokeSensor](#SmokeSensor) 
 
 <a name="SoftwareRevision"></a>
@@ -1509,6 +1579,7 @@ database. A widget would invert the permissions.
 | UUID | <code>string</code> | 00000054-0000-1000-8000-0026BB765291 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: [AccessoryInformation](#AccessoryInformation) 
 
 <a name="StatusActive"></a>
@@ -1525,6 +1596,7 @@ database. A widget would invert the permissions.
 | UUID | <code>string</code> | 00000075-0000-1000-8000-0026BB765291 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: [AirQualitySensor](#AirQualitySensor), [CarbonDioxideSensor](#CarbonDioxideSensor),
 [CarbonMonoxideSensor](#CarbonMonoxideSensor), [ContactSensor](#ContactSensor),
 [HumiditySensor](#HumiditySensor), [LeakSensor](#LeakSensor), [LightSensor](#LightSensor),
@@ -1545,6 +1617,7 @@ database. A widget would invert the permissions.
 | UUID | <code>string</code> | 00000077-0000-1000-8000-0026BB765291 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: [AirQualitySensor](#AirQualitySensor), [CarbonDioxideSensor](#CarbonDioxideSensor),
 [CarbonMonoxideSensor](#CarbonMonoxideSensor), [ContactSensor](#ContactSensor),
 [HumiditySensor](#HumiditySensor), [LeakSensor](#LeakSensor), [LightSensor](#LightSensor),
@@ -1568,6 +1641,7 @@ database. A widget would invert the permissions.
 | JAMMED | <code>number</code> | 1 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: none 
 
 <a name="StatusLowBattery"></a>
@@ -1586,6 +1660,7 @@ database. A widget would invert the permissions.
 | BATTERY_LEVEL_LOW | <code>number</code> | 1 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: [AirQualitySensor](#AirQualitySensor), [BatteryService](#BatteryService), [CarbonDioxideSensor](#CarbonDioxideSensor), [CarbonMonoxideSensor](#CarbonMonoxideSensor), [ContactSensor](#ContactSensor), [HumiditySensor](#HumiditySensor), [LeakSensor](#LeakSensor), [LightSensor](#LightSensor), [MotionSensor](#MotionSensor), [OccupancySensor](#OccupancySensor), [SmokeSensor](#SmokeSensor), [TemperatureSensor](#TemperatureSensor) 
 
 <a name="StatusTampered"></a>
@@ -1604,6 +1679,7 @@ database. A widget would invert the permissions.
 | TAMPERED | <code>number</code> | 1 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: [AirQualitySensor](#AirQualitySensor), [CarbonDioxideSensor](#CarbonDioxideSensor),
 [CarbonMonoxideSensor](#CarbonMonoxideSensor), [ContactSensor](#ContactSensor),
 [HumiditySensor](#HumiditySensor), [LeakSensor](#LeakSensor), [LightSensor](#LightSensor),
@@ -1627,6 +1703,7 @@ database. A widget would invert the permissions.
 | CLOSED | <code>number</code> | 1 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: [GarageDoorOpener](#GarageDoorOpener) 
 
 <a name="TargetHeatingCoolingState"></a>
@@ -1647,6 +1724,7 @@ database. A widget would invert the permissions.
 | AUTO | <code>number</code> | 3 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: [Thermostat](#Thermostat) 
 
 <a name="TargetHorizontalTiltAngle"></a>
@@ -1667,6 +1745,7 @@ database. A widget would invert the permissions.
 | UUID | <code>string</code> | 0000007B-0000-1000-8000-0026BB765291 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: [WindowCovering](#WindowCovering) 
 
 <a name="TargetPosition"></a>
@@ -1687,6 +1766,7 @@ database. A widget would invert the permissions.
 | UUID | <code>string</code> | 0000007C-0000-1000-8000-0026BB765291 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: [Door](#Door), [WindowCovering](#WindowCovering) 
 
 <a name="TargetRelativeHumidity"></a>
@@ -1707,6 +1787,7 @@ database. A widget would invert the permissions.
 | UUID | <code>string</code> | 00000034-0000-1000-8000-0026BB765291 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: [Thermostat](#Thermostat) 
 
 <a name="TargetTemperature"></a>
@@ -1727,6 +1808,7 @@ database. A widget would invert the permissions.
 | UUID | <code>string</code> | 00000035-0000-1000-8000-0026BB765291 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: [Thermostat](#Thermostat) 
 
 <a name="TargetVerticalTiltAngle"></a>
@@ -1747,6 +1829,7 @@ database. A widget would invert the permissions.
 | UUID | <code>string</code> | 0000007D-0000-1000-8000-0026BB765291 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: [WindowCovering](#WindowCovering) 
 
 <a name="TemperatureDisplayUnits"></a>
@@ -1765,6 +1848,7 @@ database. A widget would invert the permissions.
 | FAHRENHEIT | <code>number</code> | 1 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: [Thermostat](#Thermostat) 
 
 <a name="TimeUpdate"></a>
@@ -1781,6 +1865,7 @@ database. A widget would invert the permissions.
 | UUID | <code>string</code> | 0000009A-0000-1000-8000-0026BB765291 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: [TimeInformation](#TimeInformation) 
 
 <a name="TunnelConnectionTimeout"></a>
@@ -1797,6 +1882,7 @@ database. A widget would invert the permissions.
 | UUID | <code>string</code> | 00000061-0000-1000-8000-0026BB765291 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: [TunneledBTLEAccessoryService](#TunneledBTLEAccessoryService) 
 
 <a name="TunneledAccessoryAdvertising"></a>
@@ -1813,6 +1899,7 @@ database. A widget would invert the permissions.
 | UUID | <code>string</code> | 00000060-0000-1000-8000-0026BB765291 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: [TunneledBTLEAccessoryService](#TunneledBTLEAccessoryService) 
 
 <a name="TunneledAccessoryConnected"></a>
@@ -1829,6 +1916,7 @@ database. A widget would invert the permissions.
 | UUID | <code>string</code> | 00000059-0000-1000-8000-0026BB765291 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: [TunneledBTLEAccessoryService](#TunneledBTLEAccessoryService) 
 
 <a name="TunneledAccessoryStateNumber"></a>
@@ -1845,6 +1933,7 @@ database. A widget would invert the permissions.
 | UUID | <code>string</code> | 00000058-0000-1000-8000-0026BB765291 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: [TunneledBTLEAccessoryService](#TunneledBTLEAccessoryService) 
 
 <a name="Version"></a>
@@ -1861,6 +1950,7 @@ database. A widget would invert the permissions.
 | UUID | <code>string</code> | 00000037-0000-1000-8000-0026BB765291 |
 
 **Member Of**: [Characteristic](#Characteristic)
+
 **Used By**: [LockManagement](#LockManagement) 
 
 <a name="AccessoryInformation"></a>
