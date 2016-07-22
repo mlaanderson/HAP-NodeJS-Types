@@ -1,255 +1,160 @@
 ## Members
 
 <dl>
-<dt><a href="#Formats">Formats</a></dt>
-<dd></dd>
-<dt><a href="#Units">Units</a></dt>
-<dd></dd>
-<dt><a href="#Perms">Perms</a></dt>
-<dd></dd>
-<dt><a href="#AccessoryIdentifier">AccessoryIdentifier</a></dt>
-<dd></dd>
-<dt><a href="#AdministratorOnlyAccess">AdministratorOnlyAccess</a></dt>
-<dd></dd>
-<dt><a href="#AirParticulateDensity">AirParticulateDensity</a></dt>
-<dd></dd>
-<dt><a href="#AirParticulateSize">AirParticulateSize</a></dt>
-<dd></dd>
-<dt><a href="#AirQuality">AirQuality</a></dt>
-<dd></dd>
-<dt><a href="#AudioFeedback">AudioFeedback</a></dt>
-<dd></dd>
-<dt><a href="#BatteryLevel">BatteryLevel</a></dt>
-<dd></dd>
-<dt><a href="#Brightness">Brightness</a></dt>
-<dd></dd>
-<dt><a href="#CarbonDioxideDetected">CarbonDioxideDetected</a></dt>
-<dd></dd>
-<dt><a href="#CarbonDioxideLevel">CarbonDioxideLevel</a></dt>
-<dd></dd>
-<dt><a href="#CarbonDioxidePeakLevel">CarbonDioxidePeakLevel</a></dt>
-<dd></dd>
-<dt><a href="#CarbonMonoxideDetected">CarbonMonoxideDetected</a></dt>
-<dd></dd>
-<dt><a href="#CarbonMonoxideLevel">CarbonMonoxideLevel</a></dt>
-<dd></dd>
-<dt><a href="#CarbonMonoxidePeakLevel">CarbonMonoxidePeakLevel</a></dt>
-<dd></dd>
-<dt><a href="#Category">Category</a></dt>
-<dd></dd>
-<dt><a href="#ChargingState">ChargingState</a></dt>
-<dd></dd>
-<dt><a href="#ConfigureBridgedAccessory">ConfigureBridgedAccessory</a></dt>
-<dd></dd>
-<dt><a href="#ConfigureBridgedAccessoryStatus">ConfigureBridgedAccessoryStatus</a></dt>
-<dd></dd>
-<dt><a href="#ContactSensorState">ContactSensorState</a></dt>
-<dd></dd>
-<dt><a href="#CoolingThresholdTemperature">CoolingThresholdTemperature</a></dt>
-<dd></dd>
-<dt><a href="#CurrentAmbientLightLevel">CurrentAmbientLightLevel</a></dt>
-<dd></dd>
-<dt><a href="#CurrentDoorState">CurrentDoorState</a></dt>
-<dd></dd>
-<dt><a href="#CurrentHeatingCoolingState">CurrentHeatingCoolingState</a></dt>
-<dd></dd>
-<dt><a href="#CurrentHorizontalTiltAngle">CurrentHorizontalTiltAngle</a></dt>
-<dd></dd>
-<dt><a href="#CurrentPosition">CurrentPosition</a></dt>
-<dd></dd>
-<dt><a href="#CurrentRelativeHumidity">CurrentRelativeHumidity</a></dt>
-<dd></dd>
-<dt><a href="#CurrentTemperature">CurrentTemperature</a></dt>
-<dd></dd>
-<dt><a href="#CurrentTime">CurrentTime</a></dt>
-<dd></dd>
-<dt><a href="#CurrentVerticalTiltAngle">CurrentVerticalTiltAngle</a></dt>
-<dd></dd>
-<dt><a href="#DayoftheWeek">DayoftheWeek</a></dt>
-<dd></dd>
-<dt><a href="#DiscoverBridgedAccessories">DiscoverBridgedAccessories</a></dt>
-<dd></dd>
-<dt><a href="#DiscoveredBridgedAccessories">DiscoveredBridgedAccessories</a></dt>
-<dd></dd>
-<dt><a href="#FirmwareRevision">FirmwareRevision</a></dt>
-<dd></dd>
-<dt><a href="#HardwareRevision">HardwareRevision</a></dt>
-<dd></dd>
-<dt><a href="#HeatingThresholdTemperature">HeatingThresholdTemperature</a></dt>
-<dd></dd>
-<dt><a href="#HoldPosition">HoldPosition</a></dt>
-<dd></dd>
-<dt><a href="#Hue">Hue</a></dt>
-<dd></dd>
-<dt><a href="#Identify">Identify</a></dt>
-<dd></dd>
-<dt><a href="#LeakDetected">LeakDetected</a></dt>
-<dd></dd>
-<dt><a href="#LinkQuality">LinkQuality</a></dt>
-<dd></dd>
-<dt><a href="#LockControlPoint">LockControlPoint</a></dt>
-<dd></dd>
-<dt><a href="#LockCurrentState">LockCurrentState</a></dt>
-<dd></dd>
-<dt><a href="#LockLastKnownAction">LockLastKnownAction</a></dt>
-<dd></dd>
-<dt><a href="#LockManagementAutoSecurityTimeout">LockManagementAutoSecurityTimeout</a></dt>
-<dd></dd>
-<dt><a href="#LockTargetState">LockTargetState</a></dt>
-<dd></dd>
-<dt><a href="#Logs">Logs</a></dt>
-<dd></dd>
-<dt><a href="#Manufacturer">Manufacturer</a></dt>
-<dd></dd>
-<dt><a href="#Model">Model</a></dt>
-<dd></dd>
-<dt><a href="#MotionDetected">MotionDetected</a></dt>
-<dd></dd>
-<dt><a href="#Name">Name</a></dt>
-<dd></dd>
-<dt><a href="#ObstructionDetected">ObstructionDetected</a></dt>
-<dd></dd>
-<dt><a href="#OccupancyDetected">OccupancyDetected</a></dt>
-<dd></dd>
-<dt><a href="#On">On</a></dt>
-<dd></dd>
-<dt><a href="#OutletInUse">OutletInUse</a></dt>
-<dd></dd>
-<dt><a href="#PairSetup">PairSetup</a></dt>
-<dd></dd>
-<dt><a href="#PairVerify">PairVerify</a></dt>
-<dd></dd>
-<dt><a href="#PairingFeatures">PairingFeatures</a></dt>
-<dd></dd>
-<dt><a href="#PairingPairings">PairingPairings</a></dt>
-<dd></dd>
-<dt><a href="#PositionState">PositionState</a></dt>
-<dd></dd>
-<dt><a href="#ProgrammableSwitchEvent">ProgrammableSwitchEvent</a></dt>
-<dd></dd>
-<dt><a href="#ProgrammableSwitchOutputState">ProgrammableSwitchOutputState</a></dt>
-<dd></dd>
-<dt><a href="#Reachable">Reachable</a></dt>
-<dd></dd>
-<dt><a href="#RotationDirection">RotationDirection</a></dt>
-<dd></dd>
-<dt><a href="#RotationSpeed">RotationSpeed</a></dt>
-<dd></dd>
-<dt><a href="#Saturation">Saturation</a></dt>
-<dd></dd>
-<dt><a href="#SecuritySystemAlarmType">SecuritySystemAlarmType</a></dt>
-<dd></dd>
-<dt><a href="#SecuritySystemCurrentState">SecuritySystemCurrentState</a></dt>
-<dd></dd>
-<dt><a href="#SecuritySystemTargetState">SecuritySystemTargetState</a></dt>
-<dd></dd>
-<dt><a href="#SerialNumber">SerialNumber</a></dt>
-<dd></dd>
-<dt><a href="#SmokeDetected">SmokeDetected</a></dt>
-<dd></dd>
-<dt><a href="#SoftwareRevision">SoftwareRevision</a></dt>
-<dd></dd>
-<dt><a href="#StatusActive">StatusActive</a></dt>
-<dd></dd>
-<dt><a href="#StatusFault">StatusFault</a></dt>
-<dd></dd>
-<dt><a href="#StatusJammed">StatusJammed</a></dt>
-<dd></dd>
-<dt><a href="#StatusLowBattery">StatusLowBattery</a></dt>
-<dd></dd>
-<dt><a href="#StatusTampered">StatusTampered</a></dt>
-<dd></dd>
-<dt><a href="#TargetDoorState">TargetDoorState</a></dt>
-<dd></dd>
-<dt><a href="#TargetHeatingCoolingState">TargetHeatingCoolingState</a></dt>
-<dd></dd>
-<dt><a href="#TargetHorizontalTiltAngle">TargetHorizontalTiltAngle</a></dt>
-<dd></dd>
-<dt><a href="#TargetPosition">TargetPosition</a></dt>
-<dd></dd>
-<dt><a href="#TargetRelativeHumidity">TargetRelativeHumidity</a></dt>
-<dd></dd>
-<dt><a href="#TargetTemperature">TargetTemperature</a></dt>
-<dd></dd>
-<dt><a href="#TargetVerticalTiltAngle">TargetVerticalTiltAngle</a></dt>
-<dd></dd>
-<dt><a href="#TemperatureDisplayUnits">TemperatureDisplayUnits</a></dt>
-<dd></dd>
-<dt><a href="#TimeUpdate">TimeUpdate</a></dt>
-<dd></dd>
-<dt><a href="#TunnelConnectionTimeout">TunnelConnectionTimeout</a></dt>
-<dd></dd>
-<dt><a href="#TunneledAccessoryAdvertising">TunneledAccessoryAdvertising</a></dt>
-<dd></dd>
-<dt><a href="#TunneledAccessoryConnected">TunneledAccessoryConnected</a></dt>
-<dd></dd>
-<dt><a href="#TunneledAccessoryStateNumber">TunneledAccessoryStateNumber</a></dt>
-<dd></dd>
-<dt><a href="#Version">Version</a></dt>
-<dd></dd>
 <dt><a href="#Characteristic">Characteristic</a></dt>
-<dd></dd>
-<dt><a href="#AccessoryInformation">AccessoryInformation</a></dt>
-<dd></dd>
-<dt><a href="#AirQualitySensor">AirQualitySensor</a></dt>
-<dd></dd>
-<dt><a href="#BatteryService">BatteryService</a></dt>
-<dd></dd>
-<dt><a href="#BridgingState">BridgingState</a></dt>
-<dd></dd>
-<dt><a href="#CarbonDioxideSensor">CarbonDioxideSensor</a></dt>
-<dd></dd>
-<dt><a href="#CarbonMonoxideSensor">CarbonMonoxideSensor</a></dt>
-<dd></dd>
-<dt><a href="#ContactSensor">ContactSensor</a></dt>
-<dd></dd>
-<dt><a href="#Door">Door</a></dt>
-<dd></dd>
-<dt><a href="#Fan">Fan</a></dt>
-<dd></dd>
-<dt><a href="#GarageDoorOpener">GarageDoorOpener</a></dt>
-<dd></dd>
-<dt><a href="#HumiditySensor">HumiditySensor</a></dt>
-<dd></dd>
-<dt><a href="#LeakSensor">LeakSensor</a></dt>
-<dd></dd>
-<dt><a href="#LightSensor">LightSensor</a></dt>
-<dd></dd>
-<dt><a href="#Lightbulb">Lightbulb</a></dt>
-<dd></dd>
-<dt><a href="#LockManagement">LockManagement</a></dt>
-<dd></dd>
-<dt><a href="#LockMechanism">LockMechanism</a></dt>
-<dd></dd>
-<dt><a href="#MotionSensor">MotionSensor</a></dt>
-<dd></dd>
-<dt><a href="#OccupancySensor">OccupancySensor</a></dt>
-<dd></dd>
-<dt><a href="#Outlet">Outlet</a></dt>
-<dd></dd>
-<dt><a href="#SecuritySystem">SecuritySystem</a></dt>
-<dd></dd>
-<dt><a href="#SmokeSensor">SmokeSensor</a></dt>
-<dd></dd>
-<dt><a href="#StatefulProgrammableSwitch">StatefulProgrammableSwitch</a></dt>
-<dd></dd>
-<dt><a href="#StatelessProgrammableSwitch">StatelessProgrammableSwitch</a></dt>
-<dd></dd>
-<dt><a href="#Switch">Switch</a></dt>
-<dd></dd>
-<dt><a href="#TemperatureSensor">TemperatureSensor</a></dt>
-<dd></dd>
-<dt><a href="#Thermostat">Thermostat</a></dt>
-<dd></dd>
-<dt><a href="#TimeInformation">TimeInformation</a></dt>
-<dd></dd>
-<dt><a href="#TunneledBTLEAccessoryService">TunneledBTLEAccessoryService</a></dt>
-<dd></dd>
-<dt><a href="#WindowCovering">WindowCovering</a></dt>
 <dd></dd>
 <dt><a href="#Service">Service</a></dt>
 <dd></dd>
 </dl>
+
+<a name="Characteristic"></a>
+
+## Characteristic
+**Kind**: global variable  
+**Summary**: The Characteristic definitions
+A characteristic defines a property of a service. Each
+service will have one or more Characteristics.  
+**Properties**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| Formats | <code>[Formats](#Formats)</code> |  |
+| Units | <code>[Units](#Units)</code> |  |
+| Perms | <code>[Perms](#Perms)</code> |  |
+| AccessoryIdentifier | <code>[AccessoryIdentifier](#AccessoryIdentifier)</code> | Characteristic "Accessory Identifier" |
+| AdministratorOnlyAccess | <code>[AdministratorOnlyAccess](#AdministratorOnlyAccess)</code> | Characteristic "Administrator Only Access" |
+| AirParticulateDensity | <code>[AirParticulateDensity](#AirParticulateDensity)</code> | Characteristic "Air Particulate Density" |
+| AirParticulateSize | <code>[AirParticulateSize](#AirParticulateSize)</code> | Characteristic "Air Particulate Size" |
+| AirQuality | <code>[AirQuality](#AirQuality)</code> | Characteristic "Air Quality" |
+| AudioFeedback | <code>[AudioFeedback](#AudioFeedback)</code> | Characteristic "Audio Feedback" |
+| BatteryLevel | <code>[BatteryLevel](#BatteryLevel)</code> | Characteristic "Battery Level" |
+| Brightness | <code>[Brightness](#Brightness)</code> | Characteristic "Brightness" |
+| CarbonDioxideDetected | <code>[CarbonDioxideDetected](#CarbonDioxideDetected)</code> | Characteristic "Carbon Dioxide Detected" |
+| CarbonDioxideLevel | <code>[CarbonDioxideLevel](#CarbonDioxideLevel)</code> | Characteristic "Carbon Dioxide Level" |
+| CarbonDioxidePeakLevel | <code>[CarbonDioxidePeakLevel](#CarbonDioxidePeakLevel)</code> | Characteristic "Carbon Dioxide Peak Level" |
+| CarbonMonoxideDetected | <code>[CarbonMonoxideDetected](#CarbonMonoxideDetected)</code> | Characteristic "Carbon Monoxide Detected" |
+| CarbonMonoxideLevel | <code>[CarbonMonoxideLevel](#CarbonMonoxideLevel)</code> | Characteristic "Carbon Monoxide Level" |
+| CarbonMonoxidePeakLevel | <code>[CarbonMonoxidePeakLevel](#CarbonMonoxidePeakLevel)</code> | Characteristic "Carbon Monoxide Peak Level" |
+| Category | <code>[Category](#Category)</code> | Characteristic "Category" |
+| ChargingState | <code>[ChargingState](#ChargingState)</code> | Characteristic "Charging State" |
+| ConfigureBridgedAccessory | <code>[ConfigureBridgedAccessory](#ConfigureBridgedAccessory)</code> | Characteristic "Configure Bridged Accessory" |
+| ConfigureBridgedAccessoryStatus | <code>[ConfigureBridgedAccessoryStatus](#ConfigureBridgedAccessoryStatus)</code> | Characteristic "Configure Bridged Accessory Status" |
+| ContactSensorState | <code>[ContactSensorState](#ContactSensorState)</code> | Characteristic "Contact Sensor State" |
+| CoolingThresholdTemperature | <code>[CoolingThresholdTemperature](#CoolingThresholdTemperature)</code> | Characteristic "Cooling Threshold Temperature" |
+| CurrentAmbientLightLevel | <code>[CurrentAmbientLightLevel](#CurrentAmbientLightLevel)</code> | Characteristic "Current Ambient Light Level" |
+| CurrentDoorState | <code>[CurrentDoorState](#CurrentDoorState)</code> | Characteristic "Current Door State" |
+| CurrentHeatingCoolingState | <code>[CurrentHeatingCoolingState](#CurrentHeatingCoolingState)</code> | Characteristic "Current Heating Cooling State" |
+| CurrentHorizontalTiltAngle | <code>[CurrentHorizontalTiltAngle](#CurrentHorizontalTiltAngle)</code> | Characteristic "Current Horizontal Tilt Angle" |
+| CurrentPosition | <code>[CurrentPosition](#CurrentPosition)</code> | Characteristic "Current Position" |
+| CurrentRelativeHumidity | <code>[CurrentRelativeHumidity](#CurrentRelativeHumidity)</code> | Characteristic "Current Relative Humidity" |
+| CurrentTemperature | <code>[CurrentTemperature](#CurrentTemperature)</code> | Characteristic "Current Temperature" |
+| CurrentTime | <code>[CurrentTime](#CurrentTime)</code> | Characteristic "Current Time" |
+| CurrentVerticalTiltAngle | <code>[CurrentVerticalTiltAngle](#CurrentVerticalTiltAngle)</code> | Characteristic "Current Vertical Tilt Angle" |
+| DayoftheWeek | <code>[DayoftheWeek](#DayoftheWeek)</code> | Characteristic "Dayofthe Week" |
+| DiscoverBridgedAccessories | <code>[DiscoverBridgedAccessories](#DiscoverBridgedAccessories)</code> | Characteristic "Discover Bridged Accessories" |
+| DiscoveredBridgedAccessories | <code>[DiscoveredBridgedAccessories](#DiscoveredBridgedAccessories)</code> | Characteristic "Discovered Bridged Accessories" |
+| FirmwareRevision | <code>[FirmwareRevision](#FirmwareRevision)</code> | Characteristic "Firmware Revision" |
+| HardwareRevision | <code>[HardwareRevision](#HardwareRevision)</code> | Characteristic "Hardware Revision" |
+| HeatingThresholdTemperature | <code>[HeatingThresholdTemperature](#HeatingThresholdTemperature)</code> | Characteristic "Heating Threshold Temperature" |
+| HoldPosition | <code>[HoldPosition](#HoldPosition)</code> | Characteristic "Hold Position" |
+| Hue | <code>[Hue](#Hue)</code> | Characteristic "Hue" |
+| Identify | <code>[Identify](#Identify)</code> | Characteristic "Identify" |
+| LeakDetected | <code>[LeakDetected](#LeakDetected)</code> | Characteristic "Leak Detected" |
+| LinkQuality | <code>[LinkQuality](#LinkQuality)</code> | Characteristic "Link Quality" |
+| LockControlPoint | <code>[LockControlPoint](#LockControlPoint)</code> | Characteristic "Lock Control Point" |
+| LockCurrentState | <code>[LockCurrentState](#LockCurrentState)</code> | Characteristic "Lock Current State" |
+| LockLastKnownAction | <code>[LockLastKnownAction](#LockLastKnownAction)</code> | Characteristic "Lock Last Known Action" |
+| LockManagementAutoSecurityTimeout | <code>[LockManagementAutoSecurityTimeout](#LockManagementAutoSecurityTimeout)</code> | Characteristic "Lock Management Auto Security Timeout" |
+| LockTargetState | <code>[LockTargetState](#LockTargetState)</code> | Characteristic "Lock Target State" |
+| Logs | <code>[Logs](#Logs)</code> | Characteristic "Logs" |
+| Manufacturer | <code>[Manufacturer](#Manufacturer)</code> | Characteristic "Manufacturer" |
+| Model | <code>[Model](#Model)</code> | Characteristic "Model" |
+| MotionDetected | <code>[MotionDetected](#MotionDetected)</code> | Characteristic "Motion Detected" |
+| Name | <code>[Name](#Name)</code> | Characteristic "Name" |
+| ObstructionDetected | <code>[ObstructionDetected](#ObstructionDetected)</code> | Characteristic "Obstruction Detected" |
+| OccupancyDetected | <code>[OccupancyDetected](#OccupancyDetected)</code> | Characteristic "Occupancy Detected" |
+| On | <code>[On](#On)</code> | Characteristic "On" |
+| OutletInUse | <code>[OutletInUse](#OutletInUse)</code> | Characteristic "Outlet In Use" |
+| PairSetup | <code>[PairSetup](#PairSetup)</code> | Characteristic "Pair Setup" |
+| PairVerify | <code>[PairVerify](#PairVerify)</code> | Characteristic "Pair Verify" |
+| PairingFeatures | <code>[PairingFeatures](#PairingFeatures)</code> | Characteristic "Pairing Features" |
+| PairingPairings | <code>[PairingPairings](#PairingPairings)</code> | Characteristic "Pairing Pairings" |
+| PositionState | <code>[PositionState](#PositionState)</code> | Characteristic "Position State" |
+| ProgrammableSwitchEvent | <code>[ProgrammableSwitchEvent](#ProgrammableSwitchEvent)</code> | Characteristic "Programmable Switch Event" |
+| ProgrammableSwitchOutputState | <code>[ProgrammableSwitchOutputState](#ProgrammableSwitchOutputState)</code> | Characteristic "Programmable Switch Output State" |
+| Reachable | <code>[Reachable](#Reachable)</code> | Characteristic "Reachable" |
+| RotationDirection | <code>[RotationDirection](#RotationDirection)</code> | Characteristic "Rotation Direction" |
+| RotationSpeed | <code>[RotationSpeed](#RotationSpeed)</code> | Characteristic "Rotation Speed" |
+| Saturation | <code>[Saturation](#Saturation)</code> | Characteristic "Saturation" |
+| SecuritySystemAlarmType | <code>[SecuritySystemAlarmType](#SecuritySystemAlarmType)</code> | Characteristic "Security System Alarm Type" |
+| SecuritySystemCurrentState | <code>[SecuritySystemCurrentState](#SecuritySystemCurrentState)</code> | Characteristic "Security System Current State" |
+| SecuritySystemTargetState | <code>[SecuritySystemTargetState](#SecuritySystemTargetState)</code> | Characteristic "Security System Target State" |
+| SerialNumber | <code>[SerialNumber](#SerialNumber)</code> | Characteristic "Serial Number" |
+| SmokeDetected | <code>[SmokeDetected](#SmokeDetected)</code> | Characteristic "Smoke Detected" |
+| SoftwareRevision | <code>[SoftwareRevision](#SoftwareRevision)</code> | Characteristic "Software Revision" |
+| StatusActive | <code>[StatusActive](#StatusActive)</code> | Characteristic "Status Active" |
+| StatusFault | <code>[StatusFault](#StatusFault)</code> | Characteristic "Status Fault" |
+| StatusJammed | <code>[StatusJammed](#StatusJammed)</code> | Characteristic "Status Jammed" |
+| StatusLowBattery | <code>[StatusLowBattery](#StatusLowBattery)</code> | Characteristic "Status Low Battery" |
+| StatusTampered | <code>[StatusTampered](#StatusTampered)</code> | Characteristic "Status Tampered" |
+| TargetDoorState | <code>[TargetDoorState](#TargetDoorState)</code> | Characteristic "Target Door State" |
+| TargetHeatingCoolingState | <code>[TargetHeatingCoolingState](#TargetHeatingCoolingState)</code> | Characteristic "Target Heating Cooling State" |
+| TargetHorizontalTiltAngle | <code>[TargetHorizontalTiltAngle](#TargetHorizontalTiltAngle)</code> | Characteristic "Target Horizontal Tilt Angle" |
+| TargetPosition | <code>[TargetPosition](#TargetPosition)</code> | Characteristic "Target Position" |
+| TargetRelativeHumidity | <code>[TargetRelativeHumidity](#TargetRelativeHumidity)</code> | Characteristic "Target Relative Humidity" |
+| TargetTemperature | <code>[TargetTemperature](#TargetTemperature)</code> | Characteristic "Target Temperature" |
+| TargetVerticalTiltAngle | <code>[TargetVerticalTiltAngle](#TargetVerticalTiltAngle)</code> | Characteristic "Target Vertical Tilt Angle" |
+| TemperatureDisplayUnits | <code>[TemperatureDisplayUnits](#TemperatureDisplayUnits)</code> | Characteristic "Temperature Display Units" |
+| TimeUpdate | <code>[TimeUpdate](#TimeUpdate)</code> | Characteristic "Time Update" |
+| TunnelConnectionTimeout | <code>[TunnelConnectionTimeout](#TunnelConnectionTimeout)</code> | Characteristic "Tunnel Connection Timeout" |
+| TunneledAccessoryAdvertising | <code>[TunneledAccessoryAdvertising](#TunneledAccessoryAdvertising)</code> | Characteristic "Tunneled Accessory Advertising" |
+| TunneledAccessoryConnected | <code>[TunneledAccessoryConnected](#TunneledAccessoryConnected)</code> | Characteristic "Tunneled Accessory Connected" |
+| TunneledAccessoryStateNumber | <code>[TunneledAccessoryStateNumber](#TunneledAccessoryStateNumber)</code> | Characteristic "Tunneled Accessory State Number" |
+| Version | <code>[Version](#Version)</code> | Characteristic "Version" |
+
+
+
+<a name="Service"></a>
+
+## Service
+**Kind**: global variable  
+**Summary**: The Service definitions
+A service defines a single function of a widget but can
+implement multiple characteristics.  
+**Properties**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| AccessoryInformation | <code>[AccessoryInformation](#AccessoryInformation)</code> | Service "Accessory Information". |
+| AirQualitySensor | <code>[AirQualitySensor](#AirQualitySensor)</code> | Service "Air Quality Sensor". |
+| BatteryService | <code>[BatteryService](#BatteryService)</code> | Service "Battery Service". |
+| BridgingState | <code>[BridgingState](#BridgingState)</code> | Service "Bridging State". |
+| CarbonDioxideSensor | <code>[CarbonDioxideSensor](#CarbonDioxideSensor)</code> | Service "Carbon Dioxide Sensor". |
+| CarbonMonoxideSensor | <code>[CarbonMonoxideSensor](#CarbonMonoxideSensor)</code> | Service "Carbon Monoxide Sensor". |
+| ContactSensor | <code>[ContactSensor](#ContactSensor)</code> | Service "Contact Sensor". |
+| Door | <code>[Door](#Door)</code> | Service "Door". |
+| Fan | <code>[Fan](#Fan)</code> | Service "Fan". |
+| GarageDoorOpener | <code>[GarageDoorOpener](#GarageDoorOpener)</code> | Service "Garage Door Opener". |
+| HumiditySensor | <code>[HumiditySensor](#HumiditySensor)</code> | Service "Humidity Sensor". |
+| LeakSensor | <code>[LeakSensor](#LeakSensor)</code> | Service "Leak Sensor". |
+| LightSensor | <code>[LightSensor](#LightSensor)</code> | Service "Light Sensor". |
+| Lightbulb | <code>[Lightbulb](#Lightbulb)</code> | Service "Lightbulb". |
+| LockManagement | <code>[LockManagement](#LockManagement)</code> | Service "Lock Management". |
+| LockMechanism | <code>[LockMechanism](#LockMechanism)</code> | Service "Lock Mechanism". |
+| MotionSensor | <code>[MotionSensor](#MotionSensor)</code> | Service "Motion Sensor". |
+| OccupancySensor | <code>[OccupancySensor](#OccupancySensor)</code> | Service "Occupancy Sensor". |
+| Outlet | <code>[Outlet](#Outlet)</code> | Service "Outlet". |
+| SecuritySystem | <code>[SecuritySystem](#SecuritySystem)</code> | Service "Security System". |
+| SmokeSensor | <code>[SmokeSensor](#SmokeSensor)</code> | Service "Smoke Sensor". |
+| StatefulProgrammableSwitch | <code>[StatefulProgrammableSwitch](#StatefulProgrammableSwitch)</code> | Service "Stateful Programmable Switch". |
+| StatelessProgrammableSwitch | <code>[StatelessProgrammableSwitch](#StatelessProgrammableSwitch)</code> | Service "Stateless Programmable Switch". |
+| Switch | <code>[Switch](#Switch)</code> | Service "Switch". |
+| TemperatureSensor | <code>[TemperatureSensor](#TemperatureSensor)</code> | Service "Temperature Sensor". |
+| Thermostat | <code>[Thermostat](#Thermostat)</code> | Service "Thermostat". |
+| TimeInformation | <code>[TimeInformation](#TimeInformation)</code> | Service "Time Information". |
+| TunneledBTLEAccessoryService | <code>[TunneledBTLEAccessoryService](#TunneledBTLEAccessoryService)</code> | Service "Tunneled BT LE Accessory Service". |
+| WindowCovering | <code>[WindowCovering](#WindowCovering)</code> | Service "Window Covering". |
+
 
 <a name="Formats"></a>
 
@@ -1664,111 +1569,6 @@ database. A widget would invert the permissions.
 | perms | <code>[Perms](#Perms)</code> | [Perms.READ, Perms.NOTIFY] |
 | UUID | <code>string</code> | 00000037-0000-1000-8000-0026BB765291 |
 
-<a name="Characteristic"></a>
-
-## Characteristic
-**Kind**: global variable  
-**Summary**: The Characteristic definitions
-A characteristic defines a property of a service. Each
-service will have one or more Characteristics.  
-**Properties**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| Formats | <code>[Formats](#Formats)</code> |  |
-| Units | <code>[Units](#Units)</code> |  |
-| Perms | <code>[Perms](#Perms)</code> |  |
-| AccessoryIdentifier | <code>[AccessoryIdentifier](#AccessoryIdentifier)</code> | Characteristic "Accessory Identifier" |
-| AdministratorOnlyAccess | <code>[AdministratorOnlyAccess](#AdministratorOnlyAccess)</code> | Characteristic "Administrator Only Access" |
-| AirParticulateDensity | <code>[AirParticulateDensity](#AirParticulateDensity)</code> | Characteristic "Air Particulate Density" |
-| AirParticulateSize | <code>[AirParticulateSize](#AirParticulateSize)</code> | Characteristic "Air Particulate Size" |
-| AirQuality | <code>[AirQuality](#AirQuality)</code> | Characteristic "Air Quality" |
-| AudioFeedback | <code>[AudioFeedback](#AudioFeedback)</code> | Characteristic "Audio Feedback" |
-| BatteryLevel | <code>[BatteryLevel](#BatteryLevel)</code> | Characteristic "Battery Level" |
-| Brightness | <code>[Brightness](#Brightness)</code> | Characteristic "Brightness" |
-| CarbonDioxideDetected | <code>[CarbonDioxideDetected](#CarbonDioxideDetected)</code> | Characteristic "Carbon Dioxide Detected" |
-| CarbonDioxideLevel | <code>[CarbonDioxideLevel](#CarbonDioxideLevel)</code> | Characteristic "Carbon Dioxide Level" |
-| CarbonDioxidePeakLevel | <code>[CarbonDioxidePeakLevel](#CarbonDioxidePeakLevel)</code> | Characteristic "Carbon Dioxide Peak Level" |
-| CarbonMonoxideDetected | <code>[CarbonMonoxideDetected](#CarbonMonoxideDetected)</code> | Characteristic "Carbon Monoxide Detected" |
-| CarbonMonoxideLevel | <code>[CarbonMonoxideLevel](#CarbonMonoxideLevel)</code> | Characteristic "Carbon Monoxide Level" |
-| CarbonMonoxidePeakLevel | <code>[CarbonMonoxidePeakLevel](#CarbonMonoxidePeakLevel)</code> | Characteristic "Carbon Monoxide Peak Level" |
-| Category | <code>[Category](#Category)</code> | Characteristic "Category" |
-| ChargingState | <code>[ChargingState](#ChargingState)</code> | Characteristic "Charging State" |
-| ConfigureBridgedAccessory | <code>[ConfigureBridgedAccessory](#ConfigureBridgedAccessory)</code> | Characteristic "Configure Bridged Accessory" |
-| ConfigureBridgedAccessoryStatus | <code>[ConfigureBridgedAccessoryStatus](#ConfigureBridgedAccessoryStatus)</code> | Characteristic "Configure Bridged Accessory Status" |
-| ContactSensorState | <code>[ContactSensorState](#ContactSensorState)</code> | Characteristic "Contact Sensor State" |
-| CoolingThresholdTemperature | <code>[CoolingThresholdTemperature](#CoolingThresholdTemperature)</code> | Characteristic "Cooling Threshold Temperature" |
-| CurrentAmbientLightLevel | <code>[CurrentAmbientLightLevel](#CurrentAmbientLightLevel)</code> | Characteristic "Current Ambient Light Level" |
-| CurrentDoorState | <code>[CurrentDoorState](#CurrentDoorState)</code> | Characteristic "Current Door State" |
-| CurrentHeatingCoolingState | <code>[CurrentHeatingCoolingState](#CurrentHeatingCoolingState)</code> | Characteristic "Current Heating Cooling State" |
-| CurrentHorizontalTiltAngle | <code>[CurrentHorizontalTiltAngle](#CurrentHorizontalTiltAngle)</code> | Characteristic "Current Horizontal Tilt Angle" |
-| CurrentPosition | <code>[CurrentPosition](#CurrentPosition)</code> | Characteristic "Current Position" |
-| CurrentRelativeHumidity | <code>[CurrentRelativeHumidity](#CurrentRelativeHumidity)</code> | Characteristic "Current Relative Humidity" |
-| CurrentTemperature | <code>[CurrentTemperature](#CurrentTemperature)</code> | Characteristic "Current Temperature" |
-| CurrentTime | <code>[CurrentTime](#CurrentTime)</code> | Characteristic "Current Time" |
-| CurrentVerticalTiltAngle | <code>[CurrentVerticalTiltAngle](#CurrentVerticalTiltAngle)</code> | Characteristic "Current Vertical Tilt Angle" |
-| DayoftheWeek | <code>[DayoftheWeek](#DayoftheWeek)</code> | Characteristic "Dayofthe Week" |
-| DiscoverBridgedAccessories | <code>[DiscoverBridgedAccessories](#DiscoverBridgedAccessories)</code> | Characteristic "Discover Bridged Accessories" |
-| DiscoveredBridgedAccessories | <code>[DiscoveredBridgedAccessories](#DiscoveredBridgedAccessories)</code> | Characteristic "Discovered Bridged Accessories" |
-| FirmwareRevision | <code>[FirmwareRevision](#FirmwareRevision)</code> | Characteristic "Firmware Revision" |
-| HardwareRevision | <code>[HardwareRevision](#HardwareRevision)</code> | Characteristic "Hardware Revision" |
-| HeatingThresholdTemperature | <code>[HeatingThresholdTemperature](#HeatingThresholdTemperature)</code> | Characteristic "Heating Threshold Temperature" |
-| HoldPosition | <code>[HoldPosition](#HoldPosition)</code> | Characteristic "Hold Position" |
-| Hue | <code>[Hue](#Hue)</code> | Characteristic "Hue" |
-| Identify | <code>[Identify](#Identify)</code> | Characteristic "Identify" |
-| LeakDetected | <code>[LeakDetected](#LeakDetected)</code> | Characteristic "Leak Detected" |
-| LinkQuality | <code>[LinkQuality](#LinkQuality)</code> | Characteristic "Link Quality" |
-| LockControlPoint | <code>[LockControlPoint](#LockControlPoint)</code> | Characteristic "Lock Control Point" |
-| LockCurrentState | <code>[LockCurrentState](#LockCurrentState)</code> | Characteristic "Lock Current State" |
-| LockLastKnownAction | <code>[LockLastKnownAction](#LockLastKnownAction)</code> | Characteristic "Lock Last Known Action" |
-| LockManagementAutoSecurityTimeout | <code>[LockManagementAutoSecurityTimeout](#LockManagementAutoSecurityTimeout)</code> | Characteristic "Lock Management Auto Security Timeout" |
-| LockTargetState | <code>[LockTargetState](#LockTargetState)</code> | Characteristic "Lock Target State" |
-| Logs | <code>[Logs](#Logs)</code> | Characteristic "Logs" |
-| Manufacturer | <code>[Manufacturer](#Manufacturer)</code> | Characteristic "Manufacturer" |
-| Model | <code>[Model](#Model)</code> | Characteristic "Model" |
-| MotionDetected | <code>[MotionDetected](#MotionDetected)</code> | Characteristic "Motion Detected" |
-| Name | <code>[Name](#Name)</code> | Characteristic "Name" |
-| ObstructionDetected | <code>[ObstructionDetected](#ObstructionDetected)</code> | Characteristic "Obstruction Detected" |
-| OccupancyDetected | <code>[OccupancyDetected](#OccupancyDetected)</code> | Characteristic "Occupancy Detected" |
-| On | <code>[On](#On)</code> | Characteristic "On" |
-| OutletInUse | <code>[OutletInUse](#OutletInUse)</code> | Characteristic "Outlet In Use" |
-| PairSetup | <code>[PairSetup](#PairSetup)</code> | Characteristic "Pair Setup" |
-| PairVerify | <code>[PairVerify](#PairVerify)</code> | Characteristic "Pair Verify" |
-| PairingFeatures | <code>[PairingFeatures](#PairingFeatures)</code> | Characteristic "Pairing Features" |
-| PairingPairings | <code>[PairingPairings](#PairingPairings)</code> | Characteristic "Pairing Pairings" |
-| PositionState | <code>[PositionState](#PositionState)</code> | Characteristic "Position State" |
-| ProgrammableSwitchEvent | <code>[ProgrammableSwitchEvent](#ProgrammableSwitchEvent)</code> | Characteristic "Programmable Switch Event" |
-| ProgrammableSwitchOutputState | <code>[ProgrammableSwitchOutputState](#ProgrammableSwitchOutputState)</code> | Characteristic "Programmable Switch Output State" |
-| Reachable | <code>[Reachable](#Reachable)</code> | Characteristic "Reachable" |
-| RotationDirection | <code>[RotationDirection](#RotationDirection)</code> | Characteristic "Rotation Direction" |
-| RotationSpeed | <code>[RotationSpeed](#RotationSpeed)</code> | Characteristic "Rotation Speed" |
-| Saturation | <code>[Saturation](#Saturation)</code> | Characteristic "Saturation" |
-| SecuritySystemAlarmType | <code>[SecuritySystemAlarmType](#SecuritySystemAlarmType)</code> | Characteristic "Security System Alarm Type" |
-| SecuritySystemCurrentState | <code>[SecuritySystemCurrentState](#SecuritySystemCurrentState)</code> | Characteristic "Security System Current State" |
-| SecuritySystemTargetState | <code>[SecuritySystemTargetState](#SecuritySystemTargetState)</code> | Characteristic "Security System Target State" |
-| SerialNumber | <code>[SerialNumber](#SerialNumber)</code> | Characteristic "Serial Number" |
-| SmokeDetected | <code>[SmokeDetected](#SmokeDetected)</code> | Characteristic "Smoke Detected" |
-| SoftwareRevision | <code>[SoftwareRevision](#SoftwareRevision)</code> | Characteristic "Software Revision" |
-| StatusActive | <code>[StatusActive](#StatusActive)</code> | Characteristic "Status Active" |
-| StatusFault | <code>[StatusFault](#StatusFault)</code> | Characteristic "Status Fault" |
-| StatusJammed | <code>[StatusJammed](#StatusJammed)</code> | Characteristic "Status Jammed" |
-| StatusLowBattery | <code>[StatusLowBattery](#StatusLowBattery)</code> | Characteristic "Status Low Battery" |
-| StatusTampered | <code>[StatusTampered](#StatusTampered)</code> | Characteristic "Status Tampered" |
-| TargetDoorState | <code>[TargetDoorState](#TargetDoorState)</code> | Characteristic "Target Door State" |
-| TargetHeatingCoolingState | <code>[TargetHeatingCoolingState](#TargetHeatingCoolingState)</code> | Characteristic "Target Heating Cooling State" |
-| TargetHorizontalTiltAngle | <code>[TargetHorizontalTiltAngle](#TargetHorizontalTiltAngle)</code> | Characteristic "Target Horizontal Tilt Angle" |
-| TargetPosition | <code>[TargetPosition](#TargetPosition)</code> | Characteristic "Target Position" |
-| TargetRelativeHumidity | <code>[TargetRelativeHumidity](#TargetRelativeHumidity)</code> | Characteristic "Target Relative Humidity" |
-| TargetTemperature | <code>[TargetTemperature](#TargetTemperature)</code> | Characteristic "Target Temperature" |
-| TargetVerticalTiltAngle | <code>[TargetVerticalTiltAngle](#TargetVerticalTiltAngle)</code> | Characteristic "Target Vertical Tilt Angle" |
-| TemperatureDisplayUnits | <code>[TemperatureDisplayUnits](#TemperatureDisplayUnits)</code> | Characteristic "Temperature Display Units" |
-| TimeUpdate | <code>[TimeUpdate](#TimeUpdate)</code> | Characteristic "Time Update" |
-| TunnelConnectionTimeout | <code>[TunnelConnectionTimeout](#TunnelConnectionTimeout)</code> | Characteristic "Tunnel Connection Timeout" |
-| TunneledAccessoryAdvertising | <code>[TunneledAccessoryAdvertising](#TunneledAccessoryAdvertising)</code> | Characteristic "Tunneled Accessory Advertising" |
-| TunneledAccessoryConnected | <code>[TunneledAccessoryConnected](#TunneledAccessoryConnected)</code> | Characteristic "Tunneled Accessory Connected" |
-| TunneledAccessoryStateNumber | <code>[TunneledAccessoryStateNumber](#TunneledAccessoryStateNumber)</code> | Characteristic "Tunneled Accessory State Number" |
-| Version | <code>[Version](#Version)</code> | Characteristic "Version" |
-
 <a name="AccessoryInformation"></a>
 
 ## AccessoryInformation
@@ -2143,45 +1943,3 @@ service will have one or more Characteristics.
 | Characteristics | <code>Array</code> | Required characteristics: [CurrentPosition](#CurrentPosition), [TargetPosition](#TargetPosition), [PositionState](#PositionState). |
 | OptionalCharacteristics | <code>Array</code> | Optional characteristics: [HoldPosition](#HoldPosition), [TargetHorizontalTiltAngle](#TargetHorizontalTiltAngle), [TargetVerticalTiltAngle](#TargetVerticalTiltAngle), [CurrentHorizontalTiltAngle](#CurrentHorizontalTiltAngle), [CurrentVerticalTiltAngle](#CurrentVerticalTiltAngle), [ObstructionDetected](#ObstructionDetected), [Name](#Name). |
 | UUID | <code>string</code> | 0000008C-0000-1000-8000-0026BB765291 |
-
-<a name="Service"></a>
-
-## Service
-**Kind**: global variable  
-**Summary**: The Service definitions
-A service defines a single function of a widget but can
-implement multiple characteristics.  
-**Properties**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| AccessoryInformation | <code>[AccessoryInformation](#AccessoryInformation)</code> | Service "Accessory Information". |
-| AirQualitySensor | <code>[AirQualitySensor](#AirQualitySensor)</code> | Service "Air Quality Sensor". |
-| BatteryService | <code>[BatteryService](#BatteryService)</code> | Service "Battery Service". |
-| BridgingState | <code>[BridgingState](#BridgingState)</code> | Service "Bridging State". |
-| CarbonDioxideSensor | <code>[CarbonDioxideSensor](#CarbonDioxideSensor)</code> | Service "Carbon Dioxide Sensor". |
-| CarbonMonoxideSensor | <code>[CarbonMonoxideSensor](#CarbonMonoxideSensor)</code> | Service "Carbon Monoxide Sensor". |
-| ContactSensor | <code>[ContactSensor](#ContactSensor)</code> | Service "Contact Sensor". |
-| Door | <code>[Door](#Door)</code> | Service "Door". |
-| Fan | <code>[Fan](#Fan)</code> | Service "Fan". |
-| GarageDoorOpener | <code>[GarageDoorOpener](#GarageDoorOpener)</code> | Service "Garage Door Opener". |
-| HumiditySensor | <code>[HumiditySensor](#HumiditySensor)</code> | Service "Humidity Sensor". |
-| LeakSensor | <code>[LeakSensor](#LeakSensor)</code> | Service "Leak Sensor". |
-| LightSensor | <code>[LightSensor](#LightSensor)</code> | Service "Light Sensor". |
-| Lightbulb | <code>[Lightbulb](#Lightbulb)</code> | Service "Lightbulb". |
-| LockManagement | <code>[LockManagement](#LockManagement)</code> | Service "Lock Management". |
-| LockMechanism | <code>[LockMechanism](#LockMechanism)</code> | Service "Lock Mechanism". |
-| MotionSensor | <code>[MotionSensor](#MotionSensor)</code> | Service "Motion Sensor". |
-| OccupancySensor | <code>[OccupancySensor](#OccupancySensor)</code> | Service "Occupancy Sensor". |
-| Outlet | <code>[Outlet](#Outlet)</code> | Service "Outlet". |
-| SecuritySystem | <code>[SecuritySystem](#SecuritySystem)</code> | Service "Security System". |
-| SmokeSensor | <code>[SmokeSensor](#SmokeSensor)</code> | Service "Smoke Sensor". |
-| StatefulProgrammableSwitch | <code>[StatefulProgrammableSwitch](#StatefulProgrammableSwitch)</code> | Service "Stateful Programmable Switch". |
-| StatelessProgrammableSwitch | <code>[StatelessProgrammableSwitch](#StatelessProgrammableSwitch)</code> | Service "Stateless Programmable Switch". |
-| Switch | <code>[Switch](#Switch)</code> | Service "Switch". |
-| TemperatureSensor | <code>[TemperatureSensor](#TemperatureSensor)</code> | Service "Temperature Sensor". |
-| Thermostat | <code>[Thermostat](#Thermostat)</code> | Service "Thermostat". |
-| TimeInformation | <code>[TimeInformation](#TimeInformation)</code> | Service "Time Information". |
-| TunneledBTLEAccessoryService | <code>[TunneledBTLEAccessoryService](#TunneledBTLEAccessoryService)</code> | Service "Tunneled BT LE Accessory Service". |
-| WindowCovering | <code>[WindowCovering](#WindowCovering)</code> | Service "Window Covering". |
-
