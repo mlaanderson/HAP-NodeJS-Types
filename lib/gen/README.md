@@ -153,6 +153,7 @@ implement multiple characteristics.
 | Thermostat | <code>[Thermostat](#Thermostat)</code> | Service "Thermostat". |
 | TimeInformation | <code>[TimeInformation](#TimeInformation)</code> | Service "Time Information". |
 | TunneledBTLEAccessoryService | <code>[TunneledBTLEAccessoryService](#TunneledBTLEAccessoryService)</code> | Service "Tunneled BT LE Accessory Service". |
+| Window | <code>[Window](#Window)</code> | Service "Window". |
 | WindowCovering | <code>[WindowCovering](#WindowCovering)</code> | Service "Window Covering". |
 
 
@@ -710,7 +711,7 @@ database. A widget would invert the permissions.
 
 **Member Of**: [Characteristic](#Characteristic)
 
-**Used By**: [Door](#Door), [WindowCovering](#WindowCovering)
+**Used By**: [Door](#Door), [Window](#Window), [WindowCovering](#WindowCovering)
 
 <a name="CurrentRelativeHumidity"></a>
 
@@ -918,7 +919,7 @@ database. A widget would invert the permissions.
 
 **Member Of**: [Characteristic](#Characteristic)
 
-**Used By**: [Door](#Door), [WindowCovering](#WindowCovering)
+**Used By**: [Door](#Door), [Window](#Window), [WindowCovering](#WindowCovering)
 
 <a name="Hue"></a>
 
@@ -1194,7 +1195,7 @@ database. A widget would invert the permissions.
 [SmokeSensor](#SmokeSensor), [StatefulProgrammableSwitch](#StatefulProgrammableSwitch),
 [StatelessProgrammableSwitch](#StatelessProgrammableSwitch), [Switch](#Switch),
 [TemperatureSensor](#TemperatureSensor), [Thermostat](#Thermostat),
-[TunneledBTLEAccessoryService](#TunneledBTLEAccessoryService), [WindowCovering](#WindowCovering)
+[TunneledBTLEAccessoryService](#TunneledBTLEAccessoryService), [Window](#Window), [WindowCovering](#WindowCovering)
 
 <a name="ObstructionDetected"></a>
 
@@ -1211,7 +1212,7 @@ database. A widget would invert the permissions.
 
 **Member Of**: [Characteristic](#Characteristic)
 
-**Used By**: [Door](#Door), [GarageDoorOpener](#GarageDoorOpener), [WindowCovering](#WindowCovering)
+**Used By**: [Door](#Door), [GarageDoorOpener](#GarageDoorOpener), [Window](#Window), [WindowCovering](#WindowCovering)
 
 <a name="OccupancyDetected"></a>
 
@@ -1352,7 +1353,7 @@ database. A widget would invert the permissions.
 
 **Member Of**: [Characteristic](#Characteristic)
 
-**Used By**: [Door](#Door), [WindowCovering](#WindowCovering)
+**Used By**: [Door](#Door), [Window](#Window), [WindowCovering](#WindowCovering)
 
 <a name="ProgrammableSwitchEvent"></a>
 
@@ -1773,7 +1774,7 @@ database. A widget would invert the permissions.
 
 **Member Of**: [Characteristic](#Characteristic)
 
-**Used By**: [Door](#Door), [WindowCovering](#WindowCovering) 
+**Used By**: [Door](#Door), [Window](#Window), [WindowCovering](#WindowCovering) 
 
 <a name="TargetRelativeHumidity"></a>
 
