@@ -1032,7 +1032,7 @@ database. A widget would invert the permissions.
 
 **Member Of**: [Characteristic](#Characteristic)
 
-**Used By**: [GarageDoorOpener](#GarageDoorOpener), [LockManagement](#LockManagement)
+**Used By**: [GarageDoorOpener](#GarageDoorOpener), [LockMechanism](#LockMechanism)
 
 <a name="LockLastKnownAction"></a>
 
